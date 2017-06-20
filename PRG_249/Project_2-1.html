@@ -68,11 +68,14 @@
 	// 	var i4 = 0;
 	// 	var i5 = 0;
 	// }	
-	function myFunction()
+	// function myFunction()
+	// {
+	//     document.getElementById("f1").reset();
+	// }
+	function earaseText()
 	{
-	    document.getElementById("f1").reset();
+		document.getElementById("f1").reset();
 	}
-	
 </script>
 
 <form id="f1">
@@ -92,7 +95,7 @@
 		<br/>
 		Average = <input readonly="readonly" type="text" id="averageResult">
 		
- 		<button type="button" id="button" onclick="true">Clear</button>
+ 		<button type="button" id="f1" onclick="earaseText()">Clear</button>
 </form>
 
 </body>
