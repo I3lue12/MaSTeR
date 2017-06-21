@@ -31,20 +31,32 @@
 	{
 		document.getElementById("h").value="";
 	}
+	// function clearFields()
+	// {
+	// 	document.getElementById("f1").reset();
+	// }
 	</script>
 	
 </head>
 <body>
-<form>
+
+<form id="f1">
 	Weight (in lbs)<input type="text" name="w" id="w" onfocus="clear_w()">
+	<br/>
 	<br/>
 	Height (in ft)<input type="text" name="h" id="h" onfocus="clear_h()">
 	<br/>
+	<br/>
 	<input type="button" name="b" id="b" value="Calculate BMI" onclick="CalculateBMI()">
 	<br/>
+	<br/>
+	<!-- <button type="button" name="clearFields" id="clear" onclick="clearFields()">Clear Fields</button>
+	<br/>
+	<br/> -->
 	Your BMI is <input type="text" name="r" id="r" value="0" readonly="readonly">
 </form>
 
+<br/>
 <p><li>The formula for calculating body mass index (BMI) is weight * 703 /
 height2.</li><li>For example, if you weigh 200 pounds and are 72 inches tall,
 then you can calculate your body mass index with this expression:
