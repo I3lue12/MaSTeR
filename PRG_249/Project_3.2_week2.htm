@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 3-2</title>
+
+	<script type="text/javascript">
+	
+	// target heart rate is between 50 to 85
+	// age - 220 = target heart rate
+
+function calcHeartRate()
+{
+var a_age, bpm, maximun_heart_rate, minimum_heart_rate;
+a_age = document.getElementById("Na_age").value;
+var Na_age = parseFloat(a_age);
+//window.alert(Na_age);
+
+bpm = 220 - Na_age;
+//window.alert(bpm);
+
+
+//max heart rate
+ minimum_heart_rate = Math.round(bpm * .5);
+ //window.alert(minimum_heart_rate);
+ maximum_heart_rate = Math.round(bpm * .85);
+ //window.alert(maximum_heart_rate);
+
+document.getElementById("tA").value = Na_age;
+document.getElementById("minimum_heart_rate").value = minimum_heart_rate;
+document.getElementById("maximum_heart_rate").value = maximum_heart_rate;
+} 
+
+ 
+
+
+	</script>
+
+</head>
+<body>
+<h1>Project 3-2</h1>
+
+<table>
+			<tr>
+			what is your age
+				<td>AGE:<input type="number" name="a_age" id= "Na_age" value=""></td>
+			</tr>
+</table>
+
+
+For somone 
+<input type="text" name="a_age" readonly="readonly" id="tA" value="0"> 
+years old, the target heart rate should be between 
+<input type="number" name="hr_max" readonly="readonly" id="minimum_heart_rate" value= "">  and
+<input type="number" name="hr_max" readonly="readonly" id="maximum_heart_rate">
+beats per minute
+<br/>
+<button type="button" id="heartRate" onclick="calcHeartRate()">Heart Rate</button>
+
+
+
+
+<p><li>The American Heart Association recommends that when you exercise,
+you stay within 50 to 85 percent of your maximum heart rate.</li>
+<li>This range is called your target heart rate. One common formula for
+calculating maximum heart rate is to subtract your age from 220.</li>
+<li>Create a Web page that you can use to calculate your target heart rate.</li>
+<li>Use a form that contains a text box in which users can enter their age,
+and a command button that uses an onclick event handler to call
+a function named calcHeartRate().</li><li> Within the calcHeartRate(),include a statement that calculates the maximum heart rate and
+assigns the result to a variable. Use two other statements that calculate
+the minimum (50%) and maximum (85%) target heart rates.</li> <li>To
+calculate the minimum target heart rate, you use the formula maximum_
+heart_rate * .5, and to calculate the maximum target heart rate,
+you use the formula maximum_heart_rate * .85.</li><li> After you calculate
+the minimum and maximum target heart rates, display the result in
+another text box in the form. For example, for someone 35 years old,
+the target heart rate text box should display “92 to 157 beats per minute”.</li>
+Save the document as TargetHeartRate.html.</p>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leap Year</title>
+	<script type="text/javascript">
+
+	// function case_switches()
+	// {}
+
+	function leapYearResult(result)
+	{
+		//var result = 0;
+		switch(result){
+			case 1 : document.write("is leap year"); break;
+			case 2 : document.write("divided by 100 not leap year"); break;
+			case 3 : document.write("divided by 400 is leap year"); break;
+			default : document.write("You died2"); break;
+		}
+		// document.getElementById("showYear") = "work";
+	}
+	function leapYear()
+	{
+		var result = 0;
+		var year_result=0;
+		var year1 = parseInt(document.getElementById("year").value);
+		//window.alert(year1);
+		var isLeapYear = ((year1 % 4) == 0);
+		var year_result = ((year1 % 4) == 0);
+
+
+//bolean version
+		// if(true == isLeapYear)
+		// {
+		// 	 if(true == year1/100)
+		// 	 {	
+		// 		 	if(true == year1/400)
+		// 		 	{
+		// 				result=3;
+		// 				leapYearResult(result);
+		// 		 	}
+		// 	 		else
+		// 	 		{
+		// 	 			result = 2;
+		// 	 			leapYearResult(result);
+
+		// 	 		}
+			 	
+		// 	 }
+			 
+		// 	result = 1;
+		// 	leapYearResult(result);		
+		// }
+		// else
+		// {
+		// 	document.write("YOU DIED");
+		// }
+		
+		
+//if else
+		// if(year_result == 0)
+		// {
+		// 	result = 1;
+		// 	leapYearResult(result);
+			
+		// 	if(year_result/100 == 0)
+		// 	{
+		// 		if(year_result/400 == 0)
+		// 		{
+		// 			result=3;
+		// 			leapYearResult(result);
+		// 		}
+		// 		result = 2;
+		// 		leapYearResult(result);
+		// 	}
+			
+		// }
+		// else
+		// {
+		// 	document.write("YOU DIED");
+		// }
+//if with && and ||--works--
+
+
+		if(((year1 % 4 == 0) && (year1 % 100 != 0)) || (year1 % 400 == 0))
+		{
+			window.alert("Yes " + year1 + " is a leap year");
+			//document.write("leap year");
+			document.getElementById("getLeapYear").value = year1;
+		}
+		else
+		{
+			window.alert("Not a leap year");
+			document.getElementById("getLeapYear").value = year1;
+			//document.write("not a leap year");
+		}
+	}
+
+	</script>
+</head>
+<body>
+Enter a Year <input type="number" name="enteredYear" id="year" value="0">
+<br/>
+Your last entry was:
+<input type="number" readonly="readonly" name="getLeapYear" id="getLeapYear">
+<br/>
+<button id="leapYearButton" onclick="leapYear()">Is It A Leap Year</button>
+</body>
+</html>
