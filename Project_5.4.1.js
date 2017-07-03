@@ -20,7 +20,7 @@ function updateSelection()
 			}
 	}
 	
-	function RemoveFromLeftAddRight()
+	function RemoveFromLeftAddRight(colLeft,colRight)
 	{
 		var selectedIndex =window.document.project5_4.left.selectedIndex;
 		
@@ -30,9 +30,26 @@ function updateSelection()
 		
 		var newOption = window.document.createElement("option");
 		
-		NewOption.text = value;
+		newOption.text = value;
 
 		window.document.project5_4.left.remove(selectedIndex);
 		window.document.project5_4.right.add(newOption);
+		// if(selectedIdex=getElementId=)
+		// {
+
+		// }
+
+		// return newOption;
+
+
 	}
-	
+	function RemoveFromRightAddLeft(colLeft,colRight)
+	{
+		var selectedIndex =window.document.project5_4.right.selectedIndex;
+		var value = window.document.project5_4.right.options[selectedIndex].value;
+		var text = window.document.project5_4.right.options[selectedIndex].innerHTML;
+		var newOption = window.document.createElement("option");
+		newOption.text = value;
+		window.document.project5_4.right.remove(selectedIndex);
+		window.document.project5_4.left.add(newOption);
+	}

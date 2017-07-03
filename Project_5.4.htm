@@ -4,7 +4,7 @@
 	<title>project 5-4</title>
 
 <!-- window.document.f1.selection -->
-		<script type="text/javascript" src = "Project_5.4_myjs.js">
+		<script type="text/javascript" src = "Project_5.4.1.js">
 			
 			// function ValidateSelection()
 				{
@@ -37,23 +37,27 @@
 		<table>
 			<tr>
 				<td>
-					<select name="left" size="10">
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
+					<select name="left" id = "left" size="10" onchange="getElementById(\"b1\")">
+						<option value="1" onchange="RemoveFromRightAddLeft(newOpotion)">1</option>
+						<option value="2" onchange="RemoveFromRightAddLeft(newOpotion)">2</option>
+						<option value="3" onchange="RemoveFromRightAddLeft(newOpotion)">3</option>
 					</select>
 				</td>
 
 				<td>
-					<input type="button" name="b1" value=">>">
-					<input type="button" name="b1" value="<<">
-					<!-- <button>---></button>
-					<button>
-					<---</button> -->
+					<input type="button" name="b1" value=">>" onclick="RemoveFromLeftAddRight('left','right')">
+					<input type="button" name="b1" value="<<" onchange="RemoveFromRightAddLeft('left','right')">
+					
 				</td>
 
 				<td>
-					<select name="right"></select>
+					<select name="right" id= "right" size="10" onchange="RemoveFromRightAddLeft('left','right')">
+						<!--MABY -->
+						<option value="" onchange="RemoveFromLeftAddRight(newOpotion)"></option>
+						<option value="" onchange="RemoveFromLeftAddRight(newOpotion)"></option>
+						<option value="" onchange="RemoveFromLeftAddRight(newOpotion)"></option>
+					</select>
+
 				</td>
 			</tr>
 		</table>
