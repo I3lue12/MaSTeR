@@ -46,12 +46,12 @@
 
 				<td>
 					<input type="button" name="b1" value=">>" onclick="RemoveFromLeftAddRight('left','right')">
-					<input type="button" name="b1" value="<<" onchange="RemoveFromRightAddLeft('left','right')">
+					<input type="button" name="b1" value="<<" onclick="RemoveFromRightAddLeft('left','right')">
 					
 				</td>
 
 				<td>
-					<select name="right" id= "right" size="10" onchange="RemoveFromRightAddLeft('left','right')">
+					<select name="right" id= "right" size="10" onchange="getElementById(\"b1\")">
 						<!--MABY -->
 						<option value="" onchange="RemoveFromLeftAddRight(newOpotion)"></option>
 						<option value="" onchange="RemoveFromLeftAddRight(newOpotion)"></option>
