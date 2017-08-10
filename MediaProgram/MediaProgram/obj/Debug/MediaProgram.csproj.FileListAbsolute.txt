@@ -1,0 +1,18 @@
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe.config
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\bin\Debug\MediaProgram.pdb
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csprojResolveAssemblyReference.cache
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\obj\Debug\MediaProgram.Properties.Resources.resources
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csproj.GenerateResource.Cache
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\obj\Debug\MediaProgram.exe
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\obj\Debug\MediaProgram.pdb
+C:\Users\Brendon\Documents\Visual Studio 2015\Projects\MediaProgram\MediaProgram\obj\Debug\MediaProgram.MediaProgram.resources
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe.config
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.exe
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.pdb
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\bin\Debug\MediaProgram.pdb
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csprojResolveAssemblyReference.cache
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.MediaProgram.resources
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.Properties.Resources.resources
+C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csproj.GenerateResource.Cache
