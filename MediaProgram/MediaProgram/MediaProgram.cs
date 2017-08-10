@@ -13,28 +13,31 @@ namespace MediaProgram
     public partial class MediaProgram : Form
     {
         public MediaProgram()
-        {
-            InitializeComponent();
-        }
+            {
+                InitializeComponent();
+            }
 
         private void MediaProgram_Load(object sender, EventArgs e)
-        {
+            {
 
-        }
+            }
+        private void searchMedia_Click(object sender, EventArgs e)
+            {
+                //Button for searching for the media on computer.
+            }
+
         private void dropPlay_Paint(object sender, PaintEventArgs e) 
-        {
-            //User drags file or files here to be read, to play either a movie/picture/music and send them to there form
+            {
+                //User drags file or files here to be read, to play either a movie/picture/music and send them to there form
 
-        }
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-            //sends user to the form orginizer and that has playlist in there so you could arange how to play the media.
+            }
+        
 
-        }
+        private void textBox1_TextChanged(object sender, EventArgs e)//text box that tells the user what to do at start of screen to play media
+            {
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
+            }
 
-        }
+        
     }
 }

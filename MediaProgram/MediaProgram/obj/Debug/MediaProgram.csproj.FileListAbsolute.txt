@@ -16,3 +16,6 @@ C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgr
 C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.MediaProgram.resources
 C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.Properties.Resources.resources
 C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csproj.GenerateResource.Cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe.config
+C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.pdb
