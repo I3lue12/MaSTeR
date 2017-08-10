@@ -19,3 +19,6 @@ C:\Users\Brendon\Documents\GitHub\MediaProgram\MediaProgram\obj\Debug\MediaProgr
 C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe.config
 C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.exe
 C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe.config
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.pdb
