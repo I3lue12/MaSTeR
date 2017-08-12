@@ -38,11 +38,18 @@
             // 
             this.dropPlay.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.dropPlay.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.dropPlay.Location = new System.Drawing.Point(392, 130);
+            this.dropPlay.Location = new System.Drawing.Point(398, 119);
             this.dropPlay.Name = "dropPlay";
             this.dropPlay.Size = new System.Drawing.Size(525, 377);
             this.dropPlay.TabIndex = 0;
             this.dropPlay.Paint += new System.Windows.Forms.PaintEventHandler(this.dropPlay_Paint);
+            this.dropPlay.MouseEnter += new System.EventHandler(this.dropPlay_MouseEnter);
+            this.dropPlay.MouseLeave += new System.EventHandler(this.dropPlay_MouseLeave);
+            this.dropPlay.MouseMove += new System.Windows.Forms.MouseEventHandler(this.dropPlay_MouseMove);
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
             // 
             // searchMedia
             // 

@@ -22,3 +22,16 @@ C:\Users\Brendon\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\Med
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe.config
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.exe
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\MediaProgram.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\MediaProgram.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\mscorlib.dll
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\normidna.nlp
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\normnfc.nlp
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\normnfd.nlp
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\normnfkc.nlp
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\bin\Debug\normnfkd.nlp
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.MediaProgram.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.Properties.Resources.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\MediaProgram\MediaProgram\obj\Debug\MediaProgram.frmVideo.resources

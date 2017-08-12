@@ -17,13 +17,21 @@ namespace MediaProgram
                 InitializeComponent();
             }
 
-        private void MediaProgram_Load(object sender, EventArgs e)
+        private void Talk(string whatToSay)
+        {
+			
+
+
+        }
+            private void MediaProgram_Load(object sender, EventArgs e)
             {
 
             }
         private void searchMedia_Click(object sender, EventArgs e)
             {
                 //Button for searching for the media on computer.
+                frmVideo Video = new frmVideo();
+                Video.Show();
             }
 
         private void dropPlay_Paint(object sender, PaintEventArgs e) 
@@ -36,6 +44,28 @@ namespace MediaProgram
         private void textBox1_TextChanged(object sender, EventArgs e)//text box that tells the user what to do at start of screen to play media
             {
 
+            }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)//not sure what this is..
+            {
+
+            }
+
+        private void dropPlay_MouseEnter(object sender, EventArgs e)
+            {
+                Text = "Mouse just entered the Panel";
+                Cursor= Cursors.Cross;
+            }
+
+        private void dropPlay_MouseLeave(object sender, EventArgs e)
+            {
+                Text = "Mouse just left";
+                Cursor = Cursors.Default;
+            }
+
+        private void dropPlay_MouseMove(object sender, MouseEventArgs e)
+            {
+                Text = "X: " + e.X + ", Y: " + e.Y;
             }
 
         
