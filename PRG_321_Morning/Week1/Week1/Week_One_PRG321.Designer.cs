@@ -78,17 +78,17 @@
             // feedback
             // 
             this.feedback.AutoSize = true;
-            this.feedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.feedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.feedback.Location = new System.Drawing.Point(38, 334);
             this.feedback.Name = "feedback";
-            this.feedback.Size = new System.Drawing.Size(0, 25);
+            this.feedback.Size = new System.Drawing.Size(0, 20);
             this.feedback.TabIndex = 4;
             // 
             // Week_One_PRG321
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 388);
+            this.ClientSize = new System.Drawing.Size(589, 422);
             this.Controls.Add(this.feedback);
             this.Controls.Add(this.m_label_first_name);
             this.Controls.Add(this.newPos);
