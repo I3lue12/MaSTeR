@@ -40,7 +40,7 @@
             this.xCordInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xCordInput.ForeColor = System.Drawing.SystemColors.WindowText;
             this.xCordInput.HideSelection = false;
-            this.xCordInput.Location = new System.Drawing.Point(220, 26);
+            this.xCordInput.Location = new System.Drawing.Point(318, 22);
             this.xCordInput.Name = "xCordInput";
             this.xCordInput.Size = new System.Drawing.Size(100, 24);
             this.xCordInput.TabIndex = 0;
@@ -49,7 +49,7 @@
             // yCordInput
             // 
             this.yCordInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.yCordInput.Location = new System.Drawing.Point(220, 70);
+            this.yCordInput.Location = new System.Drawing.Point(318, 82);
             this.yCordInput.Name = "yCordInput";
             this.yCordInput.Size = new System.Drawing.Size(100, 24);
             this.yCordInput.TabIndex = 1;
@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(589, 422);
+            this.ClientSize = new System.Drawing.Size(750, 460);
             this.Controls.Add(this.feedback);
             this.Controls.Add(this.m_label_first_name);
             this.Controls.Add(this.newPos);

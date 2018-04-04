@@ -25,17 +25,20 @@ namespace Week1
 
             int xCord, yCord;
            
-            xCord = Convert.ToInt32(xCordInput.Text);
-            yCord = Convert.ToInt32(yCordInput.Text);
-            //if((xCordInput.Text == null)||(yCordInput==null))
-            //{
-            //    m_label_first_name.Text = "Go ahead and enter a number.";
-            //}
-            //else
-            //{ 
-                if(xCord < 0 || yCord < 0)
+            //use string class propertys to check if space is empty
+            if ((String.IsNullOrEmpty(xCordInput.Text)) || (String.IsNullOrEmpty(yCordInput.Text)))
+            {
+                m_label_first_name.Text = "Go ahead and enter a number.";
+            }
+            else
+            {
+                xCord = Convert.ToInt32(xCordInput.Text);
+                yCord = Convert.ToInt32(yCordInput.Text);
+
+                // cant go in the negative direction/off screen
+                if (xCord < 0 || yCord < 0)
                 {
-                    feedback.Text = "You need to put in positive text";
+                    feedback.Text = "You need to put in positive number text thing";
                 
                 }
                 else
@@ -43,7 +46,7 @@ namespace Week1
                     this.Location = new Point(xCord,yCord);
                     feedback.Text = "This is a a nice place to be.";               
                 }
-            //}
+            }
 
 
         }
