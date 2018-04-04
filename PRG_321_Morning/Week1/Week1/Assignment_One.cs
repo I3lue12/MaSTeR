@@ -26,11 +26,22 @@ namespace Week1
             {
                 feedBack.Text = "Enter in numbers";
             }
-
-            inp1 = Convert.ToDouble(firstInput.Text);
-            inpt2 = Convert.ToDouble(secondInput.Text);
-            sum = inp1 * inpt2;
-            feedBack.Text = sum + " This is your total when multiplied";
+            else
+            {
+                double parsed1, parsed2;
+                if (!double.TryParse(firstInput.Text, out parsed1) || !double.TryParse(secondInput.Text, out parsed2))
+                {
+                    feedBack.Text = "You silly, you need to enter in a number.";
+                }
+                else
+                {
+                    inp1 = Convert.ToDouble(firstInput.Text);
+                    inpt2 = Convert.ToDouble(secondInput.Text);
+                    sum = inp1 * inpt2;
+                    feedBack.Text = sum + " This is your total when multiplied";
+                }
+            }
+            
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
@@ -43,11 +54,11 @@ namespace Week1
             {
                 double parsed1,parsed2;
                 if (!double.TryParse(firstInput.Text, out parsed1)||!double.TryParse(secondInput.Text, out parsed2))
-                {
+                {//should make it so that it is NOT a letter.
                     feedBack.Text = "You silly, you need to enter in a number.";
                 }
                 else
-                {
+                {//means it is a number
                     inp1 = Convert.ToDouble(firstInput.Text);
                     inpt2 = Convert.ToDouble(secondInput.Text);
 

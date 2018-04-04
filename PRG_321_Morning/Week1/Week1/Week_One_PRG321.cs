@@ -32,7 +32,7 @@ namespace Week1
             }
             else
             {
-                string welcName = Convert.ToString(NameTextBox);
+                
                
 
 
@@ -49,7 +49,7 @@ namespace Week1
                 {
                     this.Location = new Point(xCord,yCord);
                     feedback.Text = "This is a a nice place to be.";
-                    welcomeLabel.Text = "";
+                    
                 }
             }
 
