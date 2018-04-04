@@ -32,6 +32,10 @@ namespace Week1
             }
             else
             {
+                string welcName = Convert.ToString(NameTextBox);
+               
+
+
                 xCord = Convert.ToInt32(xCordInput.Text);
                 yCord = Convert.ToInt32(yCordInput.Text);
 
@@ -44,10 +48,13 @@ namespace Week1
                 else
                 {
                     this.Location = new Point(xCord,yCord);
-                    feedback.Text = "This is a a nice place to be.";               
+                    feedback.Text = "This is a a nice place to be.";
+                    welcomeLabel.Text = "";
                 }
             }
 
+
+           
 
         }
     }

@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assessment.Designer.cs">
+      <DependentUpon>Assessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assignment_One.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assignment_One.Designer.cs">
+      <DependentUpon>Assignment_One.cs</DependentUpon>
+    </Compile>
     <Compile Include="Week_One_PRG321.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +65,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Assessment.resx">
+      <DependentUpon>Assessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assignment_One.resx">
+      <DependentUpon>Assignment_One.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Week_One_PRG321.resx">
       <DependentUpon>Week_One_PRG321.cs</DependentUpon>
     </EmbeddedResource>
