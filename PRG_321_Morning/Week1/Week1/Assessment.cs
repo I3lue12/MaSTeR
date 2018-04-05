@@ -26,7 +26,7 @@ namespace Week1
 
         private void displayInfoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            displayUserInfo.Text = userNameInput.Text + "\n" + userEmailInput.Text + "\n" + userPhoneInput.Text;
+            displayUserInfo.Text = "Name: "+userNameInput.Text + "\n" + "E-mail: " + userEmailInput.Text + "\n" + "Phone: " +userPhoneInput.Text;
         }
 
        
