@@ -1,6 +1,6 @@
 ﻿namespace Week1
 {
-    partial class Week_One_PRG321
+    partial class Assignment_One_Move_location
     {
         /// <summary>
         /// Required designer variable.

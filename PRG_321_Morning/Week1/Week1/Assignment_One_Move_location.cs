@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Week1
 {
-    public partial class Week_One_PRG321 : Form
+    public partial class Assignment_One_Move_location : Form
     {
-        public Week_One_PRG321()
+        public Assignment_One_Move_location()
         {
             InitializeComponent();
             feedback.Text = "place cordinates in text boxes to cahnge possition. Only whole numbers please.";
@@ -32,10 +32,6 @@ namespace Week1
             }
             else
             {
-                
-               
-
-
                 xCord = Convert.ToInt32(xCordInput.Text);
                 yCord = Convert.ToInt32(yCordInput.Text);
 
@@ -49,7 +45,7 @@ namespace Week1
                 {
                     this.Location = new Point(xCord,yCord);
                     feedback.Text = "This is a a nice place to be.";
-                    
+                
                 }
             }
 

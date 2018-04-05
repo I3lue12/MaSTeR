@@ -16,7 +16,7 @@ namespace Week1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Week_One_PRG321());
+            Application.Run(new Notes());
         }
     }
 }

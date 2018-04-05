@@ -7,6 +7,7 @@ C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.csproj.CoreCompileInputs.cache
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.exe
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.Week_One_PRG321.resources
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.Assignment_One.resources
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.Assessment.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.Assignment_One_Add_Multi.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.Assignment_One_Move_location.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\Week1\obj\Debug\Week1.Notes.resources

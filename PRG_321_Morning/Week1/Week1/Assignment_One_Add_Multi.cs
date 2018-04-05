@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Week1
 {
-    public partial class Assignment_One : Form
+    public partial class Assignment_One_Add_Multi : Form
     {
         public double inp1, inpt2, sum;
         
-        public Assignment_One()
+        public Assignment_One_Add_Multi()
         {
             InitializeComponent();
             

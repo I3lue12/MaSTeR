@@ -1,6 +1,6 @@
 ﻿namespace Week1
 {
-    partial class Assignment_One
+    partial class Assignment_One_Add_Multi
     {
         /// <summary>
         /// Required designer variable.
