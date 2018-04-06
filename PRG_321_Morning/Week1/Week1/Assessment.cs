@@ -42,6 +42,9 @@ namespace Week1
             userNameInput.Hide();
             userEmailInput.Hide();
             userPhoneInput.Hide();
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
         }
 
         private void clearInfoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,10 +52,36 @@ namespace Week1
             userNameInput.Show();
             userEmailInput.Show();
             userPhoneInput.Show();
+            label1.Show();
+            label2.Show();
+            label3.Show();
+            displayUserInfo.Text = "";
             userNameInput.Clear();
             userEmailInput.Clear();
             userPhoneInput.Clear();
 
+        }
+
+        private void Close(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void aboutDev(object sender, EventArgs e)
+        {
+            userNameInput.Hide();
+            userEmailInput.Hide();
+            userPhoneInput.Hide();
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            savebtn.Hide();
+            displayUserInfo.Font = new Font("Times New Roman", 45);
+            displayUserInfo.Left = 100;
+            displayUserInfo.Top = 30;
+            displayUserInfo.BackColor = Color.Aqua;
+            displayUserInfo.Text = "Created by Brendon Blau\nVersion 1.0.5.8.9.A";
+           
         }
     }
 }

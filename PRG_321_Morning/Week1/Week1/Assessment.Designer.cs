@@ -41,6 +41,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.aboutDevToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,7 @@
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.displayInfoToolStripMenuItem,
             this.clearInfoToolStripMenuItem,
+            this.aboutDevToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 20);
@@ -81,8 +83,9 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.Close);
             // 
             // userNameInput
             // 
@@ -159,6 +162,13 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Phone Number:";
             // 
+            // aboutDevToolStripMenuItem
+            // 
+            this.aboutDevToolStripMenuItem.Name = "aboutDevToolStripMenuItem";
+            this.aboutDevToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutDevToolStripMenuItem.Text = "About Dev";
+            this.aboutDevToolStripMenuItem.Click += new System.EventHandler(this.aboutDev);
+            // 
             // Assessment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,5 +208,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem aboutDevToolStripMenuItem;
     }
 }

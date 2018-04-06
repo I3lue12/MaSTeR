@@ -71,9 +71,9 @@
             this.m_label_first_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m_label_first_name.Location = new System.Drawing.Point(34, 26);
             this.m_label_first_name.Name = "m_label_first_name";
-            this.m_label_first_name.Size = new System.Drawing.Size(96, 20);
+            this.m_label_first_name.Size = new System.Drawing.Size(173, 20);
             this.m_label_first_name.TabIndex = 3;
-            this.m_label_first_name.Text = "First Name";
+            this.m_label_first_name.Text = "Enter In coordinates";
             // 
             // feedback
             // 
@@ -84,7 +84,7 @@
             this.feedback.Size = new System.Drawing.Size(0, 20);
             this.feedback.TabIndex = 4;
             // 
-            // Week_One_PRG321
+            // Assignment_One_Move_location
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,7 +94,7 @@
             this.Controls.Add(this.newPos);
             this.Controls.Add(this.yCordInput);
             this.Controls.Add(this.xCordInput);
-            this.Name = "Week_One_PRG321";
+            this.Name = "Assignment_One_Move_location";
             this.Text = "Week_One_PRG_321";
             this.ResumeLayout(false);
             this.PerformLayout();
