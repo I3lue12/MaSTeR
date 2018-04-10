@@ -1,6 +1,6 @@
 ﻿namespace Week1
 {
-    partial class Assessment
+    partial class Assessment_One
     {
         /// <summary>
         /// Required designer variable.

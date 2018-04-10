@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Week1
 {
-    public partial class Assessment : Form
+    public partial class Assessment_One : Form
     {
-        public Assessment()
+        public Assessment_One()
         {
             InitializeComponent();
             

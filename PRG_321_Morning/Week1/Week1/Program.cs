@@ -16,7 +16,7 @@ namespace Week1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Assessment());
+            Application.Run(new Assessment_One());
         }
     }
 }
