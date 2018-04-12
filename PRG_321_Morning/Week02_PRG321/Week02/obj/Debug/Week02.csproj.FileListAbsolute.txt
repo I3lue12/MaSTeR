@@ -1,0 +1,20 @@
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\bin\Debug\Week02.exe.config
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\bin\Debug\Week02.exe
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\bin\Debug\Week02.pdb
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.Properties.Resources.resources
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.Week02.resources
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.csproj.GenerateResource.cache
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.exe
+C:\Users\CCSDuser\Desktop\week02\Week02\Week02\obj\Debug\Week02.pdb
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\bin\Debug\Week02.exe.config
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\bin\Debug\Week02.exe
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\bin\Debug\Week02.pdb
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.Properties.Resources.resources
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.Week02.resources
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.csproj.GenerateResource.cache
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.exe
+C:\Users\CCSDuser\Desktop\School Homework\PRG_321\PRG_321_Morning\Week02\Week02\obj\Debug\Week02.pdb

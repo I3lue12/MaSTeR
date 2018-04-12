@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C33AB74A-F8A5-4FDB-8816-BCDE58CA603B}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>Week1</RootNamespace>
-    <AssemblyName>Week1</AssemblyName>
+    <ProjectGuid>{0D7EE7D9-21C3-4A8E-9A40-31A79E655459}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Week02</RootNamespace>
+    <AssemblyName>Week02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,44 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assessment_One.cs">
+    <Compile Include="Coach.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="PlaceHolderArrayChp12Assignment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assessment_One.Designer.cs">
-      <DependentUpon>Assessment_One.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Assignment_One_Add_Multi.cs">
+    <Compile Include="placeHoldOverrideVurtual.cs" />
+    <Compile Include="SportTeam.cs" />
+    <Compile Include="SportTeam_Football.cs" />
+    <Compile Include="SportTeam_Tennis.cs" />
+    <Compile Include="Week02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assignment_One_Add_Multi.Designer.cs">
-      <DependentUpon>Assignment_One_Add_Multi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Assignment_One_Move_location.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Assignment_One_Move_location.Designer.cs">
-      <DependentUpon>Assignment_One_Move_location.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Notes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Notes.Designer.cs">
-      <DependentUpon>Notes.cs</DependentUpon>
+    <Compile Include="Week02.Designer.cs">
+      <DependentUpon>Week02.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Assessment_One.resx">
-      <DependentUpon>Assessment_One.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Assignment_One_Add_Multi.resx">
-      <DependentUpon>Assignment_One_Add_Multi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Assignment_One_Move_location.resx">
-      <DependentUpon>Assignment_One_Move_location.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Notes.resx">
-      <DependentUpon>Notes.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,6 +74,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Week02.resx">
+      <DependentUpon>Week02.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -101,6 +86,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UML Diagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
