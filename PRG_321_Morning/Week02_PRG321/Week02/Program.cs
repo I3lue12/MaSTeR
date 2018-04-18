@@ -36,9 +36,16 @@ namespace Week02
             //everything about arrays will be dropped in method
             PlaceHolderArrayChp12Assignment.ArrayExample();
 
-            placeHoldOverrideVurtual.UnitTest();//also included the assesment best I could.
+            placeHoldOverrideVurtualNotesAndPractise.UnitTest();//also included the assesment best I could.
 
-            
+            //Assessment 2
+            Housing house = new Housing();
+            MultiUnit multiroom = new MultiUnit();
+            SingleFam singleRoom = new SingleFam();
+            singleRoom.Square_Footage = 1500;
+            singleRoom.has_Garage = true;
+            Console.WriteLine("\nThis is for the assessment 2.\nSingle room: " + singleRoom);
+
             
             //gui thing
             //Application.EnableVisualStyles();

@@ -1,0 +1,7 @@
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\bin\Debug\Week3_Assignment.exe.config
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\bin\Debug\Week3_Assignment.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\bin\Debug\Week3_Assignment.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\obj\Debug\Week3_Assignment.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\obj\Debug\Week3_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\obj\Debug\Week3_Assignment.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week03_PRG321\Week3_Assignment\Week3_Assignment\obj\Debug\Week3_Assignment.pdb

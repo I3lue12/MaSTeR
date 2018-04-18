@@ -22,7 +22,7 @@ namespace Week02
             
         }
     }
-    public class Housing
+    public class Housingexperiment
     {
         public string address, yearBuilt;
         public virtual string YearBuilt()
@@ -40,7 +40,7 @@ namespace Week02
         }
         
     }
-    public class HousingUnits:Housing
+    public class HousingUnits:Housingexperiment
     {
         public override double TotalRentalAmount(double totalDeposit, double ratePerMonth, double numberOfUnits)
         {
@@ -49,7 +49,7 @@ namespace Week02
         }
     }
   
-    public class placeHoldOverrideVurtual
+    public class placeHoldOverrideVurtualNotesAndPractise
     {
         public static void UnitTest()
         {
@@ -58,7 +58,7 @@ namespace Week02
             //p.SayHello();
             //c.SayHello();
 
-            Housing cost = new Housing();
+            Housingexperiment cost = new Housingexperiment();
             
             Console.WriteLine("This is how much per unit: $"+cost.TotalRentalAmount(20,100,1));
             HousingUnits totCost = new HousingUnits();
