@@ -15,7 +15,7 @@ namespace Week3_Assignment
         static void Main(string[] args)
         {
 
-            //4-17-2018
+
             #region 4-17-2018
 
             //string fileName = "sample.txt";
@@ -46,6 +46,9 @@ namespace Week3_Assignment
             //    Console.WriteLine("No file exists");
             //}
             #endregion
+
+
+            #region learningOnown   4-18-2018    
             /*
              Write an application that retrieves a student name and 
              three scores per line from a textfile.
@@ -62,53 +65,47 @@ namespace Week3_Assignment
              4 lines
 
              */
-            string studentName = "Students.txt";
-            StreamReader readFromText = new StreamReader(studentName);
+            /*
+           string studentName = "Students.txt";
+           StreamReader readFromText = new StreamReader(studentName);
 
+           //Array[] readingFromStudentText = new Array[];
 
+           //Console.WriteLine(readFromText.ReadLine()[0]);
 
-            //Array[] readingFromStudentText = new Array[];
-
-            //Console.WriteLine(readFromText.ReadLine()[0]);
-
-            
-
-            
-            //Console.WriteLine(readFromText.ReadToEnd());
-            string writeName;
+           //Console.WriteLine(readFromText.ReadToEnd());
+           string writeName;
            // Convert.ToInt32(readFromText.Read());
-            writeName = Convert.ToString(readFromText.Read());
-            Console.WriteLine(writeName);
-            readFromText.Close();
-            Console.ReadKey();
+           writeName = Convert.ToString(readFromText.Read());
+           Console.WriteLine(writeName);
+           readFromText.Close();
+           Console.ReadKey();
+
+           StreamWriter writeToText = new StreamWriter(studentName);
+
+           writeToText.WriteLine("Brendon Blau 67");
+           writeToText.WriteLine("Tickle me Elmo  95");
+           writeToText.WriteLine("Steve Marvin  47");
+           writeToText.Close();
+
+           if (File.Exists(studentName))
+           {
+               Console.WriteLine("file should open");
+               Console.WriteLine(File.GetLastAccessTime(studentName));
+           }
+           else
+           {
+               Console.WriteLine("nothing opened");
+           }
+
+           //Console.WriteLine(File.OpenRead(studentName));
+           //File.Open(studentName, FileMode.Open, FileAccess.Write);
 
 
 
-
-            StreamWriter writeToText = new StreamWriter(studentName);
-
-            writeToText.WriteLine("Brendon Blau 67");
-            writeToText.WriteLine("Tickle me Elmo  95");
-            writeToText.WriteLine("Steve Marvin  47");
-            writeToText.Close();
-
-
-            if(File.Exists(studentName))
-            {
-                Console.WriteLine("file should open");
-                Console.WriteLine(File.GetLastAccessTime(studentName));              
-            }
-            else
-            {
-                Console.WriteLine("nothing opened");
-            }
-
-           // Console.WriteLine(File.OpenRead(studentName));
-            //File.Open(studentName, FileMode.Open, FileAccess.Write);
-
-            
-
-                Console.ReadKey();
+           Console.ReadKey();
+           */
+            #endregion
 
             #region 4-18-2018
             //    StreamReader inputFile = new StreamReader("numbers.txt");
@@ -166,6 +163,16 @@ namespace Week3_Assignment
             //    return result;
             //}
             #endregion
+
+            #region 4-19-2018
+
+            Assessment3_Retrieve.Run();
+
+
+            #endregion
+
+            Console.ReadLine();
+
         }
     }
 }

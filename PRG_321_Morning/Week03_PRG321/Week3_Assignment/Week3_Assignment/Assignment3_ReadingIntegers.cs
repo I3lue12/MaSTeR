@@ -15,7 +15,7 @@ namespace Week3_Assignment
         
 
          public static void Assignment3_ReadingInteger()
-        {
+         {
             StreamReader inputFile = new StreamReader("numbers.txt");
             string content = "";
 
