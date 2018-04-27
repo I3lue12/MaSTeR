@@ -21,6 +21,7 @@ public partial class _Default : System.Web.UI.Page
     protected void OnSelectedChange(object sender, EventArgs e)//selected event arg.
     {
         //select = lstBoxItemsAdded.SelectedItem.ToString();    
+        
         lbl_ListBoxSelection.Text = lstBoxItemsAdded.SelectedItem.Text;
         //lbl_ListBoxSelection.Text = select;
         

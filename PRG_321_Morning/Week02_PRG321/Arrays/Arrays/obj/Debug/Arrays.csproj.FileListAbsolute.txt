@@ -1,0 +1,7 @@
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\bin\Debug\Arrays.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\bin\Debug\Arrays.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\obj\Debug\Arrays.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week02_PRG321\Arrays\Arrays\obj\Debug\Arrays.pdb
