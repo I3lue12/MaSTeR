@@ -1,7 +1,0 @@
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\bin\Debug\PRG_321_Week_2.exe.config
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\bin\Debug\PRG_321_Week_2.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\bin\Debug\PRG_321_Week_2.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\obj\Debug\PRG_321_Week_2.csproj.CoreCompileInputs.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\obj\Debug\PRG_321_Week_2.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\obj\Debug\PRG_321_Week_2.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_321_Morning\Week1\PRG_321_Week_2\obj\Debug\PRG_321_Week_2.csprojResolveAssemblyReference.cache
