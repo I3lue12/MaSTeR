@@ -33,13 +33,20 @@ public class AddTwoNum {
         int min = Math.min(arrayInt[0], arrayInt[1]);
         
         
-        System.out.format("Sum =       %+04d%n", sum);
-        System.out.println("Sum =        " + sum);
-        System.out.println("Differnece = " + diff);
-        System.out.println("Product =    " + product);
-        System.out.println("Average =    " + avrg);
-        System.out.println("Distance =   " + dist);
-        System.out.println("Maximum =    " + max);
-        System.out.println("Minimum =    " + min);
+        System.out.format("Sum =       %+05d%n", sum);
+        System.out.format("Sum =       %+05d%n", diff);
+        System.out.format("Sum =       %+05d%n", product);
+        System.out.format("Sum =       %08d%n", avrg);
+        System.out.format("Sum =       %+05d%n", dist);
+        System.out.format("Sum =       %+05d%n", max);
+        System.out.format("Sum =       %+05d%n", min);
+        
+//        System.out.println("Sum =        %+8d%n" + sum);
+//        System.out.println("Differnece = %+8d%n" + diff);
+//        System.out.println("Product =    %+8d%n" + product);
+//        System.out.println("Average =    %+8d%n" + avrg);
+//        System.out.println("Distance =  %+8d%n " + dist);
+//        System.out.println("Maximum =    %+8d%n" + max);
+//        System.out.println("Minimum =    %+8d%n" + min);
     }
 }

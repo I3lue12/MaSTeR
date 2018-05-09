@@ -7,6 +7,7 @@ package java_prg_351;
 import Week_One_Import.Housing;
 import java.awt.Color;
 import javax.swing.*;
+import Week_Three.Assignments.*;
 /**
  *
  * @author BLUE
@@ -19,15 +20,18 @@ public class Java_Prg_351 {
     public static void main(String[] args) {
         
         // TODO code application logic here
-        
-                                        //Housing myhousing = new Housing()//this is the constructor;
+                                //WEEK 1
+                                        
 
-                                        //this is instansiation.
+//Housing myhousing = new Housing()//this is the constructor;
+
+                                       
+//this is instansiation.
         Housing myhousing = new Housing();
-                                        //Houing Type 
-                                        //myhousing object
-
-                                       // new Housing();//creating a new object Housing.
+                                       
+        //Houing Type                                      
+        //myhousing object                                  
+        // new Housing();//creating a new object Housing.
    
         //myhousing.initializeType();     //initialized bad way   
 //        System.out.println(myhousing.type.paintShop);   
@@ -50,12 +54,16 @@ public class Java_Prg_351 {
 //        Week_One.Assignment.AssignmentFrame.Unit_Test();
 //        //from darker demo 
 //        Week_One.Assignment.DarkDemo.Unit_Test();
-        //week 2
         
-        Week_Two.Assignment.BankAccountTester.main(args);
+
+                            //WEEK 2
         
-        Week_Two.Assignment.AddTwoNum.Unit_Test();
+//        Week_Two.Assignment.BankAccountTester.main(args);  
+//        Week_Two.Assignment.AddTwoNum.Unit_Test();
         
+                            //WEEK 4
+        Week_Three.Assignments.Intro_Chp_5.UnitTest();
+        Week_Three.Assignments.PayCheck.Unit_Test();
         
     }
     
