@@ -26,11 +26,7 @@ public class BankAccountTester {
     System.out.println("new balance with 10 percent interest:  "+ newBalance);
     
     double firstNum,secondNum;
-    System.out.println("Enter in a number: ");
-    //first number
     
-    System.out.println("Enter in another number:");
-    //second number
     
     
     

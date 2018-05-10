@@ -20,6 +20,7 @@ public class DarkDemo {
         java.awt.Color c5 = c4.darker();
         java.awt.Color c6 = c5.darker();
         f2.getContentPane().setBackground(c6);
+        
         f2.show();
         
     }

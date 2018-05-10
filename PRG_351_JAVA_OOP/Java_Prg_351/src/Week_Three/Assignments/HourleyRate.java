@@ -11,6 +11,22 @@ package Week_Three.Assignments;
  */
 public class HourleyRate {
     
-    public double value;
+    private double value;
+    private void HourleyRate(){
     
+}
+    public HourleyRate(double v){
+        value = 0;
+        if(v >= 0)
+        {
+           value = v; 
+        }
+    }
+    public void HourleyRate(double hRate){
+        value = hRate;
+        
+    }
+    public double getRate(){
+        return value;
+    }
 }
