@@ -27,23 +27,21 @@ e. The sum of all odd digits of an input. (For example, if the input is 32677, t
    
     */
     
-    public ArrayList<Integer> storeNum = new ArrayList<>();
-    public Assessment(){
-       
+    public static ArrayList<Integer> storeNum = new ArrayList<>();
+    public Assessment(){   
     }
-    private int EvenNumLoop()//The sum of all even numbers between 2 and 100 (inclusive).
-    {   
-        
+    private static int EvenNumLoop()//The sum of all even numbers between 2 and 100 (inclusive).
+    {       
         int startNum = 0;
         int SumStartNum = 0;
         
         for(int i = 0; i< 101; i++)//could replace startnum with i
         {
-            startNum = startNum + 1;
-            if(startNum%2==0)
+
+            if(i%2==0)
             {
                 //even                  //SumStartNum + SumStartNum
-                SumStartNum += startNum;//might be startNum + startNum;
+                SumStartNum += i;//might be startNum + startNum;
             }
             else{
                 //odd
@@ -51,101 +49,135 @@ e. The sum of all odd digits of an input. (For example, if the input is 32677, t
         }
         return SumStartNum;//return the Sum of the loop
     }
-    private int SumOfSquare()//The sum of all squares between 1 and 100 (inclusive).
+    private static int SumOfSquare()//The sum of all squares between 1 and 100 (inclusive).
     {
         
         int sumOfSquare = 0;
         for(int i = 1; i < 101 ; i++)
-        {
-            int checkZero = i*i;
-            if(checkZero%2 == 0)
-            {
-                sumOfSquare += sumOfSquare;//calculate and store sum 1-100
-            }       
-        }
+            sumOfSquare += i*i;//calculate and store sum 1-100  
+        
         return sumOfSquare;//returns sum of square
     }
-    
-    private ArrayList<Integer> PowerOfTwo()//All powers of 2 from 20 up to 220.
+    private static ArrayList<Integer> PowerOfTwo()//All powers of 2 from 20 up to 220.
     {
-        
-        int resultOfTwo = 2;
-        
-        for(int i = 0; i < 10; i++)
-        {           
-            Math.pow(resultOfTwo, i);
-            
-         if(resultOfTwo >= 20 && resultOfTwo<=220)
-         {
-             storeNum.add(resultOfTwo);//only retrieve numbers that are within range of 20 - 220
-         }
-        }
+        for(int i = 20; i < 221; i++)       
+             storeNum.add(i * i );//only retrieve numbers that are within range of 20 - 220
         return storeNum;//this will return the max number.
     }
     
-    
-    private int UserEnterSum(int a, int b)//d. The sum of all odd numbers between a and b (inclusive), where a and b are inputs.
+    private static int UserEnterSum(int a, int b)//d. The sum of all odd numbers between a and b (inclusive), where a and b are inputs.
     {
         int totalSum = 0;
         storeNum.clear();
-        if(a < b)
+        
+        int lowerBound = 0;
+        int upperBound = 0;
+        if( a < b ) {
+            lowerBound = a;
+            upperBound = b;
+        } else {
+            lowerBound = b;
+            upperBound = a;
+        }
+        if(lowerBound < upperBound)
         {
                                     // I have the input need to count up to input b.
-            while(a <= b)
+            while(lowerBound <= upperBound)
             {
-                                    //store into storeNum
-                storeNum.add(a);
-                totalSum = totalSum + a;
-                a++;                //count up to b
+                 if(lowerBound%2!=0)//check odd numbers
+                 {
+                    storeNum.add(lowerBound);//store into storeNum to check the numbers if desired;
+                    totalSum = totalSum + lowerBound;//Store and add sum
+                    
+                 }
+                
+                              
+                 lowerBound++;  //count up to b
             }
         }
-        else
+//        else if (a>b)
+//        {
+//                                    //a is greater then b    
+//            
+//            while(a >= b) 
+//            {                       //store user input a
+//                if(a%2!=0)
+//                {
+//                    storeNum.add(a);
+//                    totalSum = totalSum + a;
+//                                   
+//                }
+//                a--; //need to count down to b.
+//            }
+//            
+//        }
+        if( lowerBound == upperBound ) 
         {
-                                    //a is greater then b    
-            
-            while(a >= b) 
-            {                       //store user input a
-                storeNum.add(a);
-                totalSum = totalSum - a;
-                a--;                //need to count down to b.
-            }
+            //a and b are the same input
+            totalSum = a+b;
         }
         
         
         return totalSum;
     }
     
-    private ArrayList<Integer> OddExtractInput(int a)
-    { 
+    private static int OddExtractInput(int a)//e. The sum of all odd digits of an input.
+    {           
+//        ArrayList<String> seperatedInputString = new ArrayList<>();
+//        ArrayList<Integer> seperatedInputNum = new ArrayList<>();
+        
         int totalSum = 0;
-        String numSep = String.valueOf(a);
-        storeNum.clear();
+        String numStep = String.valueOf(a);
+        
         //need to seperate the integer into pieces
-        for(int i = 0; i<numSep.length(); i++)
+        for(int i = 0; i<numStep.length(); i++)//goes through the length of the input number
         {
-             totalSum = Character.digit(numSep.charAt(i), 10);
-             storeNum.add(totalSum);
-        }        
-        return storeNum;//returns lasat value.
-    }
+            int val1 = (int)(numStep.charAt(i)) - 48;//we use ascii 
+            if( val1 % 2 != 0 )
+                totalSum += val1;
+            //numStep.charAt(i)
+           //     seperatedInputString.add(i,numStep);//place  individual numSep into its own []
+            //now convert list into ints.           
+        }
+//        
+//        int tempNum = 0;
+//        for(int j = 0; j < seperatedInputString.lastIndexOf(numStep); j++)
+//        {
+//            
+//            
+//            if(Character.digit(numStep.charAt(j), 10)%2 != 0)//get base 10 of that character from the string
+//            {
+//                  tempNum = tempNum + Character.digit(numStep.charAt(j), 10);//add the odds
+//            }
+//                 
+//        }
+        
+      
+        //add all numbers in store num;
+       // totalSum = ;     
+        
+        return totalSum;//returns last value.
+        
+    }                                       //(For example, if the input is 32677, the sum would be 3+7+7=17.)
     
-    public void Print(){
+    private static void Print()
+    {
         Scanner scnr = new Scanner(System.in);
         String outPut;
         
-        System.out.println(numLoop());
+        System.out.println(EvenNumLoop());
         System.out.println(SumOfSquare());
+        System.out.println(PowerOfTwo());
+        System.out.println(UserEnterSum(25,34));
+        System.out.println(OddExtractInput(12345));
+        
         //return outPut;
     }
     
     public static void UnitTest()
     {
-        Assessment.UnitTest();
         
-       
-        
-        
-        
+        Print();     
         
     }
     
