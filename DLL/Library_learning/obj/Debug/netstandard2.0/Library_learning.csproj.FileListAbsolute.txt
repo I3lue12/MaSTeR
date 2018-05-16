@@ -1,0 +1,9 @@
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\bin\Debug\netstandard2.0\Library_learning.deps.json
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\bin\Debug\netstandard2.0\Library_learning.dll
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\bin\Debug\netstandard2.0\Library_learning.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\obj\Debug\netstandard2.0\Library_learning.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\obj\Debug\netstandard2.0\Library_learning.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\obj\Debug\netstandard2.0\Library_learning.AssemblyInfoInputs.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\obj\Debug\netstandard2.0\Library_learning.AssemblyInfo.cs
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\obj\Debug\netstandard2.0\Library_learning.dll
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\DLL\Library_learning\obj\Debug\netstandard2.0\Library_learning.pdb
