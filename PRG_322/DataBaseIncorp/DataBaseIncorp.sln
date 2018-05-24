@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseIncorp", "DataBaseIncorp\DataBaseIncorp.csproj", "{36A81E67-C835-407B-BA93-36E37C11308C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIDatabase", "GUIDatabase\GUIDatabase.csproj", "{FAFCFA4D-E5FC-4E1C-8E0C-062FA5757028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{36A81E67-C835-407B-BA93-36E37C11308C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A81E67-C835-407B-BA93-36E37C11308C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A81E67-C835-407B-BA93-36E37C11308C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFCFA4D-E5FC-4E1C-8E0C-062FA5757028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFCFA4D-E5FC-4E1C-8E0C-062FA5757028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFCFA4D-E5FC-4E1C-8E0C-062FA5757028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFCFA4D-E5FC-4E1C-8E0C-062FA5757028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

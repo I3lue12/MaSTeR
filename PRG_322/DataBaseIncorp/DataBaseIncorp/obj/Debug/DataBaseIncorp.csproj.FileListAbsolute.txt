@@ -1,5 +1,3 @@
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\DataBaseIncorp.exe.config
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\DataBaseIncorp.exe
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\DataBaseIncorp.pdb
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\EntityFramework.dll
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\EntityFramework.SqlServer.dll
@@ -14,5 +12,7 @@ C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\obj\Debug\DataBaseIncorp.csprojResolveAssemblyReference.cache
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\obj\Debug\DataBaseIncorp.csproj.CoreCompileInputs.cache
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\obj\Debug\DataBaseIncorp.csproj.CopyComplete
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\obj\Debug\DataBaseIncorp.exe
 C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\obj\Debug\DataBaseIncorp.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\DataBaseIncorp.dll.config
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\bin\Debug\DataBaseIncorp.dll
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_322\DataBaseIncorp\DataBaseIncorp\obj\Debug\DataBaseIncorp.dll
