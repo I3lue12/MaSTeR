@@ -15,10 +15,13 @@ namespace GUIDatabase
     {
 
         public frmMain()
-        { InitializeComponent();
+        {
 
+            InitializeComponent();
 
-            DataGridView row = new DataGridView();
+            #region  The way I tried
+            /*
+            DataGridView row1 = new DataGridView();
             AgnosticDatabaseManager mng = new AgnosticDatabaseManager();
             List<StudentInfo> lst = mng.ExtractData();
             DataColumn col = new DataColumn();
@@ -32,28 +35,75 @@ namespace GUIDatabase
 
 
             //row.Rows.Add("Student First Name: ",lst[0].FirstName);
-
            
             row.RowCount = 4;
-            lbTest.Items.Add(row.ColumnCount);
-            lbTest.Items.Add(row.RowCount);
-            //lbTest.Items.Add();
-           
+            lbTest.Items.Add(row1.ColumnCount);
+            lbTest.Items.Add(row1.RowCount);
+            //lbTest.Items.Add();             
 
-            for (int i = 0; i < row.RowCount; i++)
+            for (int i = 0; i < row1.RowCount; i++)
             {
-                this.row.Rows.Add(lst[i].FirstName + lst[i].LastName);
+                this.row1.Rows.Add(lst[i].FirstName + lst[i].LastName);
+                
             }
+
+
             // row.DataSource = lst[i].FirstName;
             //for (int i = 0; i < numStudents; i++)
             //{
             //    lbTest.Items.Add("ID: " + lst[i].ID);
             //    lbTest.Items.Add("First Name: " + lst[i].FirstName);
-            //    lbTest.Items.Add("Last Name: " + lst[i].LastName);
+            //    lbTest.Items.Add("Last Name: " + lst[i].LastName); 
 
-
-            ////row.Columns.Add(lst[i].FirstName);
+            ////row1.Columns.Add(lst[i].FirstName);
             // }
+
+
+            */
+            #endregion
+
+
+            #region In Class
+            AgnosticDatabaseManager mng = new AgnosticDatabaseManager();
+            List<StudentInfo> lst = mng.ExtractData();
+
+            int numStudent = lst.Count;
+                for(int i = 0; i < numStudent; i++)
+            {
+                DataGridViewRow row = new DataGridViewRow();
+                //DataGridViewColumn col = new DataGridViewColumn();
+
+                DataGridViewTextBoxCell[] cells = new DataGridViewTextBoxCell[3];
+                for(int columb_ind = 0; columb_ind < 3; columb_ind++)
+                {
+                    cells[columb_ind] = new DataGridViewTextBoxCell();
+                    cells[columb_ind].Value = lst[i][columb_ind];
+                    row.Cells.Add(cells[columb_ind]);
+                }
+                dataGridView1.Rows.Add(row);
+
+
+                lbTest.Hide();
+                row1.Hide();
+
+                #region
+                /*
+                DataGridViewComboBoxCell cbCell = new DataGridViewComboBoxCell();
+                cbCell.Value = lst[i].ID.ToString();
+                row.Cells.Add(cbCell);
+
+                DataGridViewComboBoxCell cbCell2 = new DataGridViewComboBoxCell();
+                cbCell2.Value = lst[i].FirstName.ToString();
+                row.Cells.Add(cbCell2);
+
+                DataGridViewComboBoxCell cbCell3 = new DataGridViewComboBoxCell();
+                cbCell3.Value = lst[i].FirstName.ToString();
+                row.Cells.Add(cbCell3); 
+                */
+                #endregion
+            }
+
+            #endregion
 
 
 

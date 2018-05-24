@@ -38,6 +38,31 @@ namespace DataBaseIncorp
                 return nameLast;
             }
         }
+        public string this[int i]
+        {
+            get
+            {
+                switch(i)
+                {
+                    case 0:
+                        { int id = ID;
+                            string converter = Convert.ToString(id);
+                            return converter;
+                         }
+                        break;
+                    case 1:
+                        {
+                            return FirstName;
+                        }
+                    default:  case 2:
+                        {
+                            return LastName;
+                        }
+                    
+                }
+            }
+           
+        }
 
 
     }

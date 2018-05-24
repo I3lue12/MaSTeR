@@ -36,7 +36,7 @@ namespace DataBaseIncorp
             }
             else
             {
-                currentErrorMessage = "closed connection";
+                currentErrorMessage = "Closed connection";
                 return;
             }
         }
