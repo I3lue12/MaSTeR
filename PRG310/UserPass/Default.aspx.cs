@@ -14,23 +14,23 @@ namespace UserPass
         private MySqlConnection connection;
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            errorCheck.Visible = false;
-
-
-            string dbName = "CoolWeb";
-            string connection_param = "Data source=localhost;Database=" + dbName + ";User Id=root;Password=\"\";SSL Mode=None";
-            connection = new MySqlConnection(connection_param);
-            try //place holder for code that does work.
+            if (!Page.IsPostBack)
             {
-              connection.Open();
-              Session["connection"] = connection;
+                errorCheck.Visible = false;
+                string dbName = "PRG_310";
+                string connection_param = "Data source=localhost;Database=" + dbName + ";User Id=root;Password=\"\";SSL Mode=None";
+                connection = new MySqlConnection(connection_param);
+                try //place holder for code that does work.
+                {
+                    connection.Open();
+                    Session["connection"] = connection;
+                }
+                catch (Exception ex)
+                {
+                    errorCheck.Visible = true;
+                    errorCheck.Text = "Error - Message: " + ex.Message;
+                }
             }
-              catch(Exception ex)
-            {
-                errorCheck.Visible = true;
-                errorCheck.Text = "Error - Message: " + ex.Message;
-            }            
         }
 
         protected void SignInSignUp(object sender, EventArgs e)

@@ -15,7 +15,7 @@
             <tr>
                 <td>Login</td>
                 <td>
-                    <input type="text" id="login" />
+                    <input type="text" id="login" runat="server"/>
                 </td>
 
             </tr>
@@ -24,12 +24,14 @@
                     Password 
                 </td>
                 <td>
-                    <input type="text" id="password" />
+                    <input type="text" id="password" runat="server" />
                 </td>
             </tr>
         </table>
         <br />
         <asp:Button ID="btnNewUser" runat="server" OnClick="addUser" Text="Add Me!" />
+        <br />
+        <asp:Label ID="lblConnection" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>
