@@ -1,0 +1,7 @@
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\bin\Debug\WritingTextFile.exe.config
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\bin\Debug\WritingTextFile.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\bin\Debug\WritingTextFile.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\WritingTextFile.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\WritingTextFile.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\WritingTextFile.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\WritingTextFile.pdb
