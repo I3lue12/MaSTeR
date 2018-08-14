@@ -10,9 +10,11 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
-        if (Request.Cookies["flyerID"] == null)
+        if (Profile.flyerID == 0)
             Response.Redirect("Login.aspx");
+
+        //if (Request.Cookies["flyerID"] == null)
+        //    Response.Redirect("Login.aspx");
         else
         {
             SqlConnection dbConnection = new SqlConnection(ConnectionString.Value);
@@ -21,7 +23,9 @@ public partial class _Default : System.Web.UI.Page
             try {
 
                 //placed .value on cookie for sqlCommand to make a query.
-                SqlCommand sqlCommand = new SqlCommand( "SELECT flyerID, first, last FROM FrequentFlyers WHERE flyerID = " + Request.Cookies["flyerID"].Value, dbConnection);
+                //SqlCommand sqlCommand = new SqlCommand( "SELECT flyerID, first, last FROM FrequentFlyers WHERE flyerID = " + Request.Cookies["flyerID"].Value, dbConnection);
+                //made a profile for the sql command
+                SqlCommand sqlCommand = new SqlCommand("SELECT flyerID, first, last FROM FrequentFlyers WHERE flyerID = " + Profile.flyerID, dbConnection);
                 SqlDataReader userInfo = sqlCommand.ExecuteReader();
                 if (userInfo.Read()) {
                     flyerIDValue.Text = userInfo["flyerID"].ToString();

@@ -26,11 +26,14 @@ public partial class _Default : System.Web.UI.Page
                     //from book 497
                     //Response.Redirect("ffClubPage.aspx?flyerID=" + curUser["flyerID"]);
                     // used to use a quary string now we will be using a cookie
-                    HttpCookie flyerIDObject = new HttpCookie("flyerID");
-                    flyerIDObject.Value = curUser["flyerID"].ToString();
-                    flyerIDObject.Expires = DateTime.Now.AddDays(30);
-                    Response.Cookies.Add(flyerIDObject);
-                    Response.Redirect("ffClubPage.aspx");
+                    //HttpCookie flyerIDObject = new HttpCookie("flyerID");
+                    //flyerIDObject.Value = curUser["flyerID"].ToString();
+                    //flyerIDObject.Expires = DateTime.Now.AddDays(30);
+                    //Response.Cookies.Add(flyerIDObject);
+                      
+                   
+                      Profile.flyerID = (int)curUser["flyerID"];
+                      Response.Redirect("ffClubPage.aspx");
                 }
                 else
                     badLogin.Text = "<p style='color:red'> < strong > Incorrect ID or password. < strong ></ p > ";
