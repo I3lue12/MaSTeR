@@ -25,14 +25,16 @@ public partial class _Default : System.Web.UI.Page
                 {
                     //from book 497
                     //Response.Redirect("ffClubPage.aspx?flyerID=" + curUser["flyerID"]);
-                    // used to use a quary string now we will be using a cookie
+
+                    // used to use a quary string now we will be using a cookie 
                     //HttpCookie flyerIDObject = new HttpCookie("flyerID");
                     //flyerIDObject.Value = curUser["flyerID"].ToString();
                     //flyerIDObject.Expires = DateTime.Now.AddDays(30);
                     //Response.Cookies.Add(flyerIDObject);
-                      
-                   
-                      Profile.flyerID = (int)curUser["flyerID"];
+
+                     // int s = (int)curUser["flyerID"];
+                      Profile.flyerID = (short)curUser["flyerID"];
+                      Session["user"] = Profile;
                       Response.Redirect("ffClubPage.aspx");
                 }
                 else
