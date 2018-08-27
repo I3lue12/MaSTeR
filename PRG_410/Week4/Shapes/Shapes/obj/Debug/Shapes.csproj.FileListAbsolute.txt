@@ -1,7 +1,0 @@
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\obj\Debug\Shapes.csprojAssemblyReference.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\obj\Debug\Shapes.csproj.CoreCompileInputs.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\bin\Debug\Shapes.exe.config
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\bin\Debug\Shapes.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\bin\Debug\Shapes.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\obj\Debug\Shapes.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\Shapes\Shapes\obj\Debug\Shapes.pdb

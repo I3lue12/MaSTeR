@@ -1,5 +1,0 @@
-Data Source=localhost
-Database=LOGIN
-User Id=root
-Password=empty
-SSL Mode=None

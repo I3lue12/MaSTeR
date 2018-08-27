@@ -1,0 +1,10 @@
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\bin\Debug\FileCreationNManagment.exe.config
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\bin\Debug\FileCreationNManagment.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\bin\Debug\FileCreationNManagment.pdb
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.csprojAssemblyReference.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.Form1.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.Properties.Resources.resources
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.csproj.GenerateResource.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.csproj.CoreCompileInputs.cache
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.exe
+C:\Users\CCSDuser\Documents\GitHub\MaSTeR\FileCreationNManagment\FileCreationNManagment\obj\Debug\FileCreationNManagment.pdb

@@ -1,7 +1,0 @@
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\bin\Debug\ShapesWithUML.exe.config
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\bin\Debug\ShapesWithUML.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\bin\Debug\ShapesWithUML.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\obj\Debug\ShapesWithUML.csprojAssemblyReference.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\obj\Debug\ShapesWithUML.csproj.CoreCompileInputs.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\obj\Debug\ShapesWithUML.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\Week4\ShapesWithUML\ShapesWithUML\obj\Debug\ShapesWithUML.pdb

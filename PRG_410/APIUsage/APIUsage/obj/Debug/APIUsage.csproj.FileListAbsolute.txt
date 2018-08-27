@@ -1,7 +1,0 @@
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\bin\Debug\APIUsage.exe.config
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\bin\Debug\APIUsage.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\bin\Debug\APIUsage.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\obj\Debug\APIUsage.csprojResolveAssemblyReference.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\obj\Debug\APIUsage.csproj.CoreCompileInputs.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\obj\Debug\APIUsage.exe
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\APIUsage\APIUsage\obj\Debug\APIUsage.pdb

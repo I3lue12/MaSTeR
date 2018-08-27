@@ -1,6 +1,0 @@
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\bin\Debug\WritingTextFile.dll.config
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\bin\Debug\WritingTextFile.dll
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\bin\Debug\WritingTextFile.pdb
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\ReadingTextFile.csproj.CoreCompileInputs.cache
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\WritingTextFile.dll
-C:\Users\CCSDuser\Documents\GitHub\MaSTeR\PRG_410\WritingTextFile\WritingTextFile\obj\Debug\WritingTextFile.pdb
