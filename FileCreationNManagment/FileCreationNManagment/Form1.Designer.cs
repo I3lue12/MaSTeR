@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCreateNewFile = new System.Windows.Forms.Button();
             this.tbFilePath = new System.Windows.Forms.TextBox();
             this.tbFileName = new System.Windows.Forms.TextBox();
             this.cbIncrement = new System.Windows.Forms.CheckBox();
@@ -38,17 +38,19 @@
             this.dudMax = new System.Windows.Forms.DomainUpDown();
             this.lblFileNamePre = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnNameOrgin = new System.Windows.Forms.Button();
+            this.btnDateOrgin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCreateNewFile
             // 
-            this.button1.Location = new System.Drawing.Point(12, 388);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "File Name Change";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCreateNewFile.Location = new System.Drawing.Point(12, 388);
+            this.btnCreateNewFile.Name = "btnCreateNewFile";
+            this.btnCreateNewFile.Size = new System.Drawing.Size(144, 23);
+            this.btnCreateNewFile.TabIndex = 0;
+            this.btnCreateNewFile.Text = "File Name Change";
+            this.btnCreateNewFile.UseVisualStyleBackColor = true;
+            this.btnCreateNewFile.Click += new System.EventHandler(this.btn_createNewFile);
             // 
             // tbFilePath
             // 
@@ -57,8 +59,8 @@
             this.tbFilePath.Size = new System.Drawing.Size(198, 20);
             this.tbFilePath.TabIndex = 1;
             this.tbFilePath.Text = "File Path";
+            this.tbFilePath.Click += new System.EventHandler(this.Clear_File_path);
             this.tbFilePath.TextChanged += new System.EventHandler(this.tbFilePath_TextChanged);
-            this.tbFilePath.DragDrop += new System.Windows.Forms.DragEventHandler(this.File_Path);
             // 
             // tbFileName
             // 
@@ -67,6 +69,7 @@
             this.tbFileName.Size = new System.Drawing.Size(198, 20);
             this.tbFileName.TabIndex = 2;
             this.tbFileName.Text = "File Name";
+            this.tbFileName.Click += new System.EventHandler(this.Clear_File_Name);
             this.tbFileName.TextChanged += new System.EventHandler(this.File_Name);
             // 
             // cbIncrement
@@ -94,9 +97,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbViewFiles.FormattingEnabled = true;
-            this.lbViewFiles.Location = new System.Drawing.Point(243, 13);
+            this.lbViewFiles.Location = new System.Drawing.Point(243, 52);
             this.lbViewFiles.Name = "lbViewFiles";
-            this.lbViewFiles.Size = new System.Drawing.Size(545, 368);
+            this.lbViewFiles.Size = new System.Drawing.Size(545, 329);
             this.lbViewFiles.TabIndex = 6;
             this.lbViewFiles.Click += new System.EventHandler(this.SelectedToGoToClip);
             // 
@@ -138,11 +141,33 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Clear);
             // 
+            // btnNameOrgin
+            // 
+            this.btnNameOrgin.Location = new System.Drawing.Point(341, 23);
+            this.btnNameOrgin.Name = "btnNameOrgin";
+            this.btnNameOrgin.Size = new System.Drawing.Size(75, 23);
+            this.btnNameOrgin.TabIndex = 11;
+            this.btnNameOrgin.Text = "By Name";
+            this.btnNameOrgin.UseVisualStyleBackColor = true;
+            this.btnNameOrgin.Click += new System.EventHandler(this.btnNameOrgin_Click);
+            // 
+            // btnDateOrgin
+            // 
+            this.btnDateOrgin.Location = new System.Drawing.Point(658, 23);
+            this.btnDateOrgin.Name = "btnDateOrgin";
+            this.btnDateOrgin.Size = new System.Drawing.Size(75, 23);
+            this.btnDateOrgin.TabIndex = 12;
+            this.btnDateOrgin.Text = "By Date";
+            this.btnDateOrgin.UseVisualStyleBackColor = true;
+            this.btnDateOrgin.Click += new System.EventHandler(this.btnDateOrgin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDateOrgin);
+            this.Controls.Add(this.btnNameOrgin);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lblFileNamePre);
             this.Controls.Add(this.dudMax);
@@ -152,7 +177,7 @@
             this.Controls.Add(this.cbIncrement);
             this.Controls.Add(this.tbFileName);
             this.Controls.Add(this.tbFilePath);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCreateNewFile);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -162,7 +187,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCreateNewFile;
         private System.Windows.Forms.TextBox tbFilePath;
         private System.Windows.Forms.TextBox tbFileName;
         private System.Windows.Forms.CheckBox cbIncrement;
@@ -172,6 +197,8 @@
         private System.Windows.Forms.DomainUpDown dudMax;
         private System.Windows.Forms.Label lblFileNamePre;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnNameOrgin;
+        private System.Windows.Forms.Button btnDateOrgin;
     }
 }
 
