@@ -10,5 +10,6 @@ namespace FileCreationNManagment
     {
         public string Name;
         public int Number;
+        public DateTime Date;
     }
 }

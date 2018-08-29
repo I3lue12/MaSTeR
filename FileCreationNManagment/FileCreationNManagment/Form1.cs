@@ -105,9 +105,9 @@ namespace FileCreationNManagment
             maxIncrement = Convert.ToInt32(dudMax.Text);
         }
 
-        private void btnNameOrgin_Click(object sender, EventArgs e) //orginize list of files in alphabeticle order.
+        private void btnOrginizeBySeason(object sender, EventArgs e) //orginize list of files in alphabeticle order.
         {
-            //TODO: make the list box items in alphabeticle order
+            
 
             lbViewFiles.Items.Clear();
             
@@ -167,22 +167,9 @@ namespace FileCreationNManagment
                     {
                         lbViewFiles.Items.Add(m.Name);
                         break;
-                    }
-                }
-
-            }
-
-
-            //ArrayList oldViewFiles = new ArrayList();
-            //oldViewFiles.Clear();
-            //foreach(FileInfo f in oldFiles)
-            //{
-            //    oldViewFiles.Add(f);
-
-            //}
-            //oldViewFiles.Sort();
-            //lbViewFiles.Items.Clear();
-            //lbViewFiles.Items.Add(oldViewFiles);
+                    }                      
+                } 
+            }             
         }
 
         private bool IsANumber(char c)
@@ -194,14 +181,21 @@ namespace FileCreationNManagment
         {
             //TODO: make the list box items in order by date
 
-            //ArrayList oldDateFiles = new ArrayList();
-            //oldDateFiles.Clear();
-            //foreach (FileInfo f in oldFiles)
-            //{
-            //    oldDateFiles.Add(f);
-            //}
-            //oldDateFiles.Sort();
-            //lbViewFiles.Items.Clear();
+            List<NameNum> orderByDate = new List<NameNum>();
+            foreach(FileInfo f in oldFiles)
+            {
+                NameNum nn = new NameNum();
+                nn.Name = f.Name;
+                nn.Date = f.LastAccessTime.Date;
+                orderByDate.Add(nn);
+            }
+            lbViewFiles.Items.Clear();
+            foreach(NameNum n in orderByDate)
+            {
+                
+                lbViewFiles.Items.Add(n.Name + "-" + n.Date.ToString());
+            }
+            
         }
 
         private void Clear_File_path(object sender, EventArgs e) //onclick Clearing the file path text

@@ -7,5 +7,6 @@ using System.Web;
 public class UserInfo
 {
     public string Username;
+    public Level LevelDifficulty;
 
 }

@@ -143,13 +143,13 @@
             // 
             // btnNameOrgin
             // 
-            this.btnNameOrgin.Location = new System.Drawing.Point(341, 23);
+            this.btnNameOrgin.Location = new System.Drawing.Point(243, 23);
             this.btnNameOrgin.Name = "btnNameOrgin";
-            this.btnNameOrgin.Size = new System.Drawing.Size(75, 23);
+            this.btnNameOrgin.Size = new System.Drawing.Size(108, 23);
             this.btnNameOrgin.TabIndex = 11;
             this.btnNameOrgin.Text = "By Name";
             this.btnNameOrgin.UseVisualStyleBackColor = true;
-            this.btnNameOrgin.Click += new System.EventHandler(this.btnNameOrgin_Click);
+            this.btnNameOrgin.Click += new System.EventHandler(this.btnOrginizeBySeason);
             // 
             // btnDateOrgin
             // 

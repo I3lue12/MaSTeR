@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+ public enum Level
+{
+    Easy, Medium, Hard
+}
 
 public class GameInfo
 {
@@ -10,6 +14,7 @@ public class GameInfo
     public List<char> Attempts = new List<char>();
     public int TriesRemaining;
 
+    
     public GameInfo()
     {
        
