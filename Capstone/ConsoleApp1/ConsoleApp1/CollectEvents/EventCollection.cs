@@ -34,9 +34,7 @@ namespace ConsoleApp1
 		}
 		public static Point RunMP()
 		{
-			
 			return MousePos.GetMousePossition(); //works
-
 		}
 	}
 }

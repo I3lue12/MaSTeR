@@ -13,10 +13,11 @@ namespace ConsoleApp1
 {
 	public class NewHook  //works
 	{
+		//http://www.webtropy.com/articles/art9-2.asp?lib=user32.dll
 		[DllImport("User32.dll")]
 		private static extern short GetAsyncKeyState(System.Windows.Forms.Keys vKey);
 		
-
+		
 		public string RunNewHook()
 		{
 			foreach (System.Int32 i in Enum.GetValues(typeof(Keys)))
