@@ -18,7 +18,7 @@ namespace ConsoleApp1
 		private static extern short GetAsyncKeyState(System.Windows.Forms.Keys vKey);
 		
 		
-		public string RunNewHook()
+		public static string RunNewHook()
 		{
 			foreach (System.Int32 i in Enum.GetValues(typeof(Keys)))
 			{
@@ -30,7 +30,7 @@ namespace ConsoleApp1
 
 					//types are of ascii
 					//Console.Write(Enum.GetName(typeof(Keys), i) + " " + i.GetType()+ " " + i + "\n");
-					Console.Write(Enum.GetName(typeof(Keys), i));
+					//Console.Write(Enum.GetName(typeof(Keys), i));
 
 					return Enum.GetName(typeof(Keys), i);
 					
@@ -42,25 +42,5 @@ namespace ConsoleApp1
 			return "";
 
 		}
-		/* brefore messing with code
-		public void RunNewHook()
-		{
-			foreach (System.Int32 i in Enum.GetValues(typeof(Keys)))
-			{
-				if (GetAsyncKeyState((Keys)i) == -32767)
-				{
-					//To get key name with Enum.GetName(typeof(Keys), i) 
-					// Now you have the pressed key
-
-
-					//types are of ascii
-					Console.Write(Enum.GetName(typeof(Keys), i) + " " + i.GetType() + " " + i + "\n");
-
-				}
-				Console.Write(Enum.GetName(typeof(Keys), i));
-			}
-		}
-		*/
-
 	}	
 }

@@ -13,9 +13,10 @@ namespace ConsoleApp1
 {
 	public class KeyPress
 	{
+		 //OLD CODE THINK ABOUT DELETE
+
 
 		[DllImport("user32.dll")]
-
 		public static extern int GetAsyncKeyState(int i);
 		static public int sendAssNum = 1;    //not suure if I need this.
 

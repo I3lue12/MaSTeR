@@ -5,34 +5,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Drawing;
-
+using System.Diagnostics;
 namespace ConsoleApp1
 {
 	public class EventCollection
 	{
+		 
 
-	
-		static string KeyPressTHIS;
-		static bool lower = true;
-		static List<string> Keys = new List<string>();
+		static SaveState saveState;
 
-		//Dylans way
-		static NewHook n = new NewHook();
-		static MousePos mp;
-		
 		EventCollection()
 		{
 			
 											 
 		}
-	
-		//TODO:We will use this
-		public static string RunKBHook()
+		public static SaveState Run(Stopwatch stpWatch)
 		{
-			 return n.RunNewHook(); //works
+			return saveState = new SaveState(stpWatch.ElapsedMilliseconds, RunKBHook(), RunMP());
+		}
+		
+		protected static string RunKBHook()
+		{
+			
+			 return NewHook.RunNewHook(); //works
 
 		}
-		public static Point RunMP()
+		protected static Point RunMP()
 		{
 			return MousePos.GetMousePossition(); //works
 		}
