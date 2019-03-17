@@ -17,7 +17,7 @@ namespace ConsoleApp1
 		private static extern short GetAsyncKeyState(System.Windows.Forms.Keys vKey);
 		
 
-		public void RunNewHook()
+		public string RunNewHook()
 		{
 			foreach (System.Int32 i in Enum.GetValues(typeof(Keys)))
 			{
@@ -30,11 +30,16 @@ namespace ConsoleApp1
 					//types are of ascii
 					//Console.Write(Enum.GetName(typeof(Keys), i) + " " + i.GetType()+ " " + i + "\n");
 					Console.Write(Enum.GetName(typeof(Keys), i));
+
+					return Enum.GetName(typeof(Keys), i);
 					
 				}
+				//this displays every key available
 				//Console.Write(Enum.GetName(typeof(Keys), i));
 			}
-			
+			//return nothing if nothing is pressed
+			return "";
+
 		}
 		/* brefore messing with code
 		public void RunNewHook()

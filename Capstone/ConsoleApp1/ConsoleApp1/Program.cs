@@ -29,9 +29,11 @@ namespace ConsoleApp1
 			stpWatch = new Stopwatch();
 			stpWatch.Start();
 			long timespan = stpWatch.ElapsedMilliseconds;
-			while(timespan < 1800000)
+			while(timespan < 1800000) //30 minutes
 			{
-				EventCollection.Run();
+				EventCollection.RunKBHook();
+				EventCollection.RunMP();
+				Console.WriteLine(EventCollection.RunMP().X + " | " + EventCollection.RunMP().Y);
 			}
 
 			Console.ReadKey();
