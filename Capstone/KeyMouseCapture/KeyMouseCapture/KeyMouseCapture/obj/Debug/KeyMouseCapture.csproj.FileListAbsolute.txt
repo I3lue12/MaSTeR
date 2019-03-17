@@ -1,0 +1,10 @@
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\bin\Debug\KeyMouseCapture.exe.config
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\bin\Debug\KeyMouseCapture.exe
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\bin\Debug\KeyMouseCapture.pdb
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.csprojAssemblyReference.cache
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.frmMain.resources
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.Properties.Resources.resources
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.csproj.GenerateResource.cache
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.csproj.CoreCompileInputs.cache
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.exe
+C:\Users\Brendon\Documents\Visual Studio 2017\2017VisualStudio\KeyMouseCapture\KeyMouseCapture\obj\Debug\KeyMouseCapture.pdb

@@ -1,0 +1,7 @@
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\bin\Debug\SomTesting_Hook.exe.config
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\bin\Debug\SomTesting_Hook.exe
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\bin\Debug\SomTesting_Hook.pdb
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\obj\Debug\SomTesting_Hook.csprojAssemblyReference.cache
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\obj\Debug\SomTesting_Hook.csproj.CoreCompileInputs.cache
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\obj\Debug\SomTesting_Hook.exe
+C:\Users\Brendon\Desktop\Capstone\SomTesting_Hook\SomTesting_Hook\obj\Debug\SomTesting_Hook.pdb
