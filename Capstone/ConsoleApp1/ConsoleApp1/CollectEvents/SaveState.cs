@@ -9,9 +9,9 @@ namespace ConsoleApp1
 {
 	public class SaveState
 	{
-		public string keyBoardClick;
-		public long time=0;
-		public Point mousePosistion;
+		private string keyBoardClick;
+		private long time = 0;
+		private Point mousePosistion;
 
 		public SaveState(long time, string keyboardclick, Point mousepos)
 		{
@@ -19,5 +19,8 @@ namespace ConsoleApp1
 			keyBoardClick = keyboardclick;
 			mousePosistion = mousepos;
 		}
+		public long TimeGet { get { return this.time; } }
+		public string KeyboardClick { get { return this.keyBoardClick; } }
+		public Point MousePossition { get { return this.mousePosistion; } }
 	}
 }

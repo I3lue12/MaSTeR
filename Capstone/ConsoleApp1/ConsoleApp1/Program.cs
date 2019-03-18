@@ -16,8 +16,10 @@ namespace ConsoleApp1
 		static Stopwatch stpWatch;
 		//https://www.dotnetperls.com/stopwatch
 		static SaveState st;
+		static List<SaveState> saveStates;
+
 		const long MaxTime = 1800000;
-		//static IntPtr hWnd;
+		
 
 		static IntPtr hWnd = Process.GetCurrentProcess().MainWindowHandle; //need the handle for THIS program to find out what I need to "hide".
 		[DllImport("user32.dll")]
@@ -34,22 +36,27 @@ namespace ConsoleApp1
 			long timespan = stpWatch.ElapsedMilliseconds;
 			while(timespan < MaxTime) //30 minutes	//could just make a boolian
 			{
-
+				saveStates = new List<SaveState>();
 				st = EventCollection.Run(stpWatch);
-				
-				Console.WriteLine(st.time + " | " + st.keyBoardClick + " | " + st.mousePosistion.X + " | " + st.mousePosistion.Y);
+				Console.WriteLine(st.TimeGet + "|" + st.KeyboardClick + "|" + st.MousePossition.X + "|" + st.MousePossition.Y);//
+				saveStates.Add(st);
 
-
-				Thread.Sleep(100);				
+				Thread.Sleep(100);
 				//TODO: Ecrypt data file
+				
+				string temp = Encrypt.GetEncData(saveStates);
+				//gets encrypted data into a string like "~$~$~st.time~$~KeyboardPress~$~mouseXPos~$~mouseYPos" but encrypted
+				Console.WriteLine(temp);
+
 				//TODO: Write to file
 
 
+				//conditions to end code.
 				if (timespan == MaxTime-1)//might need to give leway
 				{
 					stpWatch.Reset();
 				}
-
+				saveStates.Clear();//Clear saveState list
 			}
 
 			//Console.ReadKey();

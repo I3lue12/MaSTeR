@@ -51,12 +51,16 @@
     <Compile Include="CollectEvents\KeyPress.cs" />
     <Compile Include="CollectEvents\MousePos.cs" />
     <Compile Include="CollectEvents\NewHook.cs" />
+    <Compile Include="Encrypt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CollectEvents\SaveState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Record\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
