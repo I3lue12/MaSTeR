@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Drawing;
 using System.Diagnostics;
+
 namespace ConsoleApp1
 {
 	public class EventCollection
@@ -14,11 +15,8 @@ namespace ConsoleApp1
 
 		static SaveState saveState;
 
-		EventCollection()
-		{
-			
-											 
-		}
+		EventCollection() { }					 
+		
 		public static SaveState Run(Stopwatch stpWatch)
 		{
 			return saveState = new SaveState(stpWatch.ElapsedMilliseconds, RunKBHook(), RunMP());
@@ -26,13 +24,12 @@ namespace ConsoleApp1
 		
 		protected static string RunKBHook()
 		{
-			
-			 return NewHook.RunNewHook(); //works
-
+			 return NewHook.RunNewHook(); 
 		}
+
 		protected static Point RunMP()
 		{
-			return MousePos.GetMousePossition(); //works
+			return MousePos.GetMousePossition(); 
 		}
 	}
 }

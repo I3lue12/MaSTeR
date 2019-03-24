@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectEvents\EventCollection.cs" />
-    <Compile Include="CollectEvents\KeyPress.cs" />
     <Compile Include="CollectEvents\MousePos.cs" />
     <Compile Include="CollectEvents\NewHook.cs" />
     <Compile Include="Encrypt.cs" />

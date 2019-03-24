@@ -11,12 +11,11 @@ using System.Windows.Forms;
 
 namespace ConsoleApp1
 {
-	public class NewHook  //works
+	public class NewHook  
 	{
 		//http://www.webtropy.com/articles/art9-2.asp?lib=user32.dll
 		[DllImport("User32.dll")]
 		private static extern short GetAsyncKeyState(System.Windows.Forms.Keys vKey);
-		
 		
 		public static string RunNewHook()
 		{
@@ -24,16 +23,14 @@ namespace ConsoleApp1
 			{
 				if (GetAsyncKeyState((Keys)i) == -32767)
 				{
+					#region Description: i,keys
 					//To get key name with Enum.GetName(typeof(Keys), i) 
 					// Now you have the pressed key
-
-
 					//types are of ascii
 					//Console.Write(Enum.GetName(typeof(Keys), i) + " " + i.GetType()+ " " + i + "\n");
 					//Console.Write(Enum.GetName(typeof(Keys), i));
-
+					#endregion
 					return Enum.GetName(typeof(Keys), i);
-					
 				}
 				//this displays every key available
 				//Console.Write(Enum.GetName(typeof(Keys), i));

@@ -32,6 +32,7 @@ namespace ConsoleApp1
 				}
 			}
 		}
+
 		public static string GetEncData(List<SaveState> ss)
 		{
 			//there will only be one and only one ss each time.
