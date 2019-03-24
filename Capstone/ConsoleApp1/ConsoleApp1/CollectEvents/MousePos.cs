@@ -11,7 +11,7 @@ namespace ConsoleApp1
 	class MousePos
 	{
 		[DllImport("user32.dll")]
-		public static extern bool GetCursorPos(out Point lpPoint);
+		private static extern bool GetCursorPos(out Point lpPoint);
 
 		protected MousePos()
 		{
@@ -20,8 +20,14 @@ namespace ConsoleApp1
 		public static Point GetMousePossition()
 		{
 			Point lpPoint;
-			GetCursorPos(out lpPoint);
-			return lpPoint;
+			if (GetCursorPos(out lpPoint))
+			{
+				return lpPoint;
+			}
+			else
+			{
+				return new Point(0, 0);
+			}
 		}
 		
 	}
