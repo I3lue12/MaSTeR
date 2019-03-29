@@ -16,15 +16,15 @@ namespace ConsoleApp1
 		//https://www.dotnetperls.com/stopwatch
 		static SaveState st;
 		static List<SaveState> saveStates;
-		const long MaxTime = 600000;
+		const long MaxTime = 30000;   //30 seconds
+									 //600000  //ten minutes
 		static IntPtr hWnd = Process.GetCurrentProcess().MainWindowHandle; //need the handle for THIS program to find out what I need to "hide".
 
 		[DllImport("user32.dll")]
 		static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
 		static void Main(string[] args)
-		{
-
+		{	
 			ShowWindow(hWnd, 0); //0 hides cmd line, 1 shows.
 			stpWatch = new Stopwatch();
 			stpWatch.Start();
@@ -44,6 +44,7 @@ namespace ConsoleApp1
 				//conditions to end code.
 				saveStates.Clear();//Clear saveState list
 			}
+			Environment.Exit(-1);
 		}
 	}
 }

@@ -11,7 +11,7 @@ namespace ConsoleApp1
 	{
 		static private string saveStateEncrypt;
 		static private string hash = "The_Only_Real_Key";
-		const string seperate = "~$~";
+		const string seperate = "~$~$~";
 
 		private static string EncryptSaveState(string s)
 		{
