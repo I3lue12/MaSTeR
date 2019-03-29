@@ -161,7 +161,10 @@ namespace Replay
 			foreach (string encr in encoded)
 			{
 				string[] pattern = new string[] { "~$~$~" };
-				sepperates = encr.Split(pattern, StringSplitOptions.None);
+				if (!pattern.Contains(""))
+				{
+					sepperates = encr.Split(pattern, StringSplitOptions.None);
+				}
 			}
 			int count = 0;
 			for(int i = 0; i < (sepperates.Length/4)-4; i++)
