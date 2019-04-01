@@ -36,7 +36,7 @@ namespace ConsoleApp1
 				//Console.Write(Enum.GetName(typeof(Keys), i));
 			}
 			//return nothing if nothing is pressed
-			return "?";
+			return "NKC";
 
 		}
 	}	

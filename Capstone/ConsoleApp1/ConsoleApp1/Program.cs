@@ -29,13 +29,14 @@ namespace ConsoleApp1
 			stpWatch = new Stopwatch();
 			stpWatch.Start();
 			long timespan = stpWatch.ElapsedMilliseconds;
+			
 			while(timespan < MaxTime) //10 minutes
 			{
 				saveStates = new List<SaveState>();
 				st = EventCollection.Run(stpWatch);
 				//Console.WriteLine(st.TimeGet + "|" + st.KeyboardClick + "|" + st.MousePossition.X + "|" + st.MousePossition.Y);//
 				saveStates.Add(st);
-				Thread.Sleep(10);
+				Thread.Sleep(100);
 				//Ecrypt data file
 				string temp = Encrypt.GetEncData(saveStates);
 				//gets encrypted data into a string like "~$~$~st.time~$~KeyboardPress~$~mouseXPos~$~mouseYPos" but encrypted

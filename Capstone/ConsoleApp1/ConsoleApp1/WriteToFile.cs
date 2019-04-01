@@ -22,7 +22,7 @@ namespace ConsoleApp1
 			{
 				Directory.CreateDirectory(path);
 			}
-			if(Directory.Exists(path))
+			else
 			{
 				
 				appendPath = "Session.txt";
@@ -31,6 +31,7 @@ namespace ConsoleApp1
 				{
 					sw.WriteLine(toFile);
 				}
+
 			}
 		}
 	}

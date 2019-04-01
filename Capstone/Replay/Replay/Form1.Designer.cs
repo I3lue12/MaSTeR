@@ -36,10 +36,10 @@
 			// lbViewFiles
 			// 
 			this.lbViewFiles.FormattingEnabled = true;
-			this.lbViewFiles.Location = new System.Drawing.Point(309, 75);
+			this.lbViewFiles.Location = new System.Drawing.Point(59, 75);
 			this.lbViewFiles.Name = "lbViewFiles";
 			this.lbViewFiles.ScrollAlwaysVisible = true;
-			this.lbViewFiles.Size = new System.Drawing.Size(333, 277);
+			this.lbViewFiles.Size = new System.Drawing.Size(711, 303);
 			this.lbViewFiles.TabIndex = 0;
 			this.lbViewFiles.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.lbViewFiles_DrawItem);
 			this.lbViewFiles.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.lbViewFiles_MeasureItem);
@@ -57,7 +57,7 @@
 			// 
 			// btnPlay
 			// 
-			this.btnPlay.Location = new System.Drawing.Point(309, 359);
+			this.btnPlay.Location = new System.Drawing.Point(309, 396);
 			this.btnPlay.Name = "btnPlay";
 			this.btnPlay.Size = new System.Drawing.Size(75, 23);
 			this.btnPlay.TabIndex = 2;

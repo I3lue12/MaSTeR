@@ -44,34 +44,26 @@ namespace Replay
 		private void btnOpenFile_Click(object sender, EventArgs e)
 		{
 			//OpenFileDialog openFile = new OpenFileDialog();
-
 			//openFile.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
-
 			using (FolderBrowserDialog fbd = new FolderBrowserDialog())
 			{
 				if (fbd.ShowDialog() == DialogResult.OK)
 				{
+
+					
 					lbViewFiles.Items.Clear();
 					string[] files = Directory.GetFiles(fbd.SelectedPath);
-					string[] direct = Directory.GetDirectories(fbd.SelectedPath);
-					List<string> paths = new List<string>();
-					foreach (string s in files)
-					{
-						if (Path.GetFileName(s).Contains(".txt"))
-						{
-							lbViewFiles.Items.Add(Path.GetFileName(s));
-							paths.Add(Path.GetFileName(s));   //adds all txt files in directory to list.
-							fullDirectPath.Add(Path.Combine(Path.GetDirectoryName(s),Path.GetFileName(s)));
-						}
-					}
-					foreach (string d in direct)
-					{
-						
-						lbViewFiles.Items.Add(Path.GetDirectoryName(d)); //adds to view the direcotrys in selected direcotory.
-					}
-				}
+					DirectoryInfo di = new DirectoryInfo(fbd.SelectedPath);
 
-				
+					FileInfo[] filesInDir = di.GetFiles("*.txt");
+ 
+					foreach(FileInfo somefile in filesInDir)
+					{
+						string fi = somefile.FullName;
+						fullDirectPath.Add(fi);
+						lbViewFiles.Items.Add(fi);
+					}	
+				}
 			}
 
 
@@ -124,7 +116,6 @@ namespace Replay
 			//TODO: Run grab file.
 			if(fullDirectPath.Count > 0)
 			{
-				  
 				foreach(string s in fullDirectPath)
 				{
 					if(s.Contains(".txt"))
@@ -135,9 +126,14 @@ namespace Replay
 						{  //try encryptiong
 							try
 							{
-								string toEnc = rdr.ReadToEnd();
-								toEnc = "GOOlgriN4wXaz5JMf30d09fkvPmAxN8fmnab4sYx3gQ=";
-								encoded.Add(Decrypt.Run(toEnc));
+								//string toEnc = rdr.ReadToEnd();
+								while(!rdr.EndOfStream)
+								{
+									string toenc = rdr.ReadLine();
+									lbViewFiles.Items.Add(toenc);
+									//toEnc = "GOOlgriN4wXaz5JMf30d09fkvPmAxN8fmnab4sYx3gQ=";
+									encoded.Add(Decrypt.Run(toenc));
+								}	
 							}
 							catch	  //catch
 							{
@@ -156,73 +152,59 @@ namespace Replay
 				encoded.Add("failed");
 			}
 			//seperate encrypted data
-			string[] sepperates=new string[] { };
+			
+			
 			List<string> sepperateList = new List<string>(); //TODO: check Delete or not
+			List<string> addOuterEncode = new List<string>();
+			List<string> addInnerEncode = new List<string>();
+
 			foreach (string encr in encoded)
 			{
-				string[] pattern = new string[] { "~$~$~" };
-				if (!pattern.Contains(""))
+				string[] sepperates = new string[] { };
+				string[] pattern1 = new string[] { "$~$~$" };  //outer
+				sepperates = encr.Split(pattern1, StringSplitOptions.None);
+				for(int i = 0; i < sepperates.Length; i++)
 				{
-					sepperates = encr.Split(pattern, StringSplitOptions.None);
+					addOuterEncode.Add(sepperates[i]);
+				}
+				
+			}
+			
+			foreach (string sep in addOuterEncode)
+			{
+				string[] sepperates2 = new string[] { };
+				string[] pattern2 = new string[] { "~$~$~" };
+				sepperates2 = sep.Split(pattern2, StringSplitOptions.RemoveEmptyEntries);
+				for (int i = 0; i < sepperates2.Length; i++)
+				{
+					addInnerEncode.Add(sepperates2[i]);
 				}
 			}
-			int count = 0;
-			for(int i = 0; i < (sepperates.Length/4)-4; i++)
+	 
+			
+			//DEBUG
+	
+			lbViewFiles.Items.Add(saveStates.Count);
+			lbViewFiles.Items.Clear();
+			for (int i = 0; i< addInnerEncode.Count-4; i+=4)
 			{
-				Stopwatch stopWatch = new Stopwatch();
-				long time = 0L;
-				string character = "";
-				Point point = new Point();					  
-				if (sepperates[i+count]==sepperates[i+count]) 
-				{    
-					time = Convert.ToInt64(sepperates[i + count]); 
-				}
-				else if(sepperates[i+1+count]== sepperates[i + 1 + count]) 
-				{   
-					character = sepperates[i + 1 + count];
-				}
-				else if(sepperates[i+2+count]==sepperates[i+2+count]) 
-				{    
-					point.X = Convert.ToInt32(sepperates[i + 2 + count]);
-				}
-				else if(sepperates[i + 3 + count]==sepperates[i + 3 + count]) 
-				{     
-					point.Y = Convert.ToInt32(sepperates[i + 3 + count]);
-				}
-				else
-				{
-					//error
-				}
-				SaveState savestate = new SaveState(time,character,point);
+				Point p = new Point();
+				long insertLong = Convert.ToInt64(addInnerEncode[i]);
+				string insertKP = addInnerEncode[i + 1];
+				p.X = Convert.ToInt32(addInnerEncode[i + 2]);
+				p.Y = Convert.ToInt32(addInnerEncode[i + 3]);
+				SaveState savestate = new SaveState(insertLong, insertKP, p);
 				saveStates.Add(savestate);
-				count += 3;
 			}
 
-
-			foreach(SaveState st in saveStates)
+			foreach (SaveState st in saveStates)
 			{
-				lbViewFiles.Items.Add(st.TimeGet.ToString());
-				lbViewFiles.Items.Add(st.KeyboardClick);
-				lbViewFiles.Items.Add(st.MousePossition.X.ToString());
-				lbViewFiles.Items.Add(st.MousePossition.Y.ToString());
+				lbViewFiles.Items.Add(st.TimeGet.ToString()+" "+ st.KeyboardClick +" "+ st.MousePossition.X.ToString() +" "+ st.MousePossition.Y.ToString());
 			}
-
-
-			//if 0,4,8,12,16,20 //time in miloseconds
-			//if 1,5,9,13,17,21 //keypress
-			//if 2,6,10,14,18,22	//x posistion
-			//if 3,7,11,15,19,23/yposistion	 
-
-
-
-
-
-
 
 			//TODO: Run playfunction
-
-
-
+			Play play = new Play();
+			play.Run(saveStates);
 			//bring back the program
 			this.Show();
 			lbViewFiles.Show();

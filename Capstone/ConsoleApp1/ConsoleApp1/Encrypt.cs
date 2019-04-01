@@ -11,6 +11,7 @@ namespace ConsoleApp1
 	{
 		static private string saveStateEncrypt;
 		static private string hash = "The_Only_Real_Key";
+		const string seperateStates = "$~$~$";
 		const string seperate = "~$~$~";
 
 		private static string EncryptSaveState(string s)
@@ -38,15 +39,18 @@ namespace ConsoleApp1
 			//there will only be one and only one ss each time.
 			foreach (SaveState s in ss)
 			{
-				saveStateEncrypt = "~$~$~";
-				saveStateEncrypt += s.TimeGet.ToString() + seperate
-													+ s.KeyboardClick
-													+ seperate
-													+ s.MousePossition.X.ToString()
-													+ seperate
-													+ s.MousePossition.Y.ToString();															
+				saveStateEncrypt = "";
+				saveStateEncrypt =	seperateStates
+									+ s.TimeGet.ToString() 
+									+ seperate
+									+ s.KeyboardClick
+									+ seperate
+									+ s.MousePossition.X.ToString()
+									+ seperate
+									+ s.MousePossition.Y.ToString()
+									+ seperateStates;
 			}
-
+			//$~$~$time~$~$~keypress~$~$~mousX~$~$~mousY$~$~$
 			//encrypted
 			saveStateEncrypt = EncryptSaveState(saveStateEncrypt);
 			return saveStateEncrypt;
