@@ -1,0 +1,10 @@
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\bin\Debug\xmlWriteRead.exe.config
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\bin\Debug\xmlWriteRead.exe
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\bin\Debug\xmlWriteRead.pdb
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.csprojAssemblyReference.cache
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.Form1.resources
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.Properties.Resources.resources
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.csproj.GenerateResource.cache
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.csproj.CoreCompileInputs.cache
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.exe
+C:\Users\Brendon\Documents\GitHub\Projects\PersonalProjects\xmlWriteRead\xmlWriteRead\obj\Debug\xmlWriteRead.pdb

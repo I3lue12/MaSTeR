@@ -1,0 +1,11 @@
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\bin\Debug\EmployeeData.xml
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\bin\Debug\XMLparse.exe.config
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\bin\Debug\XMLparse.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\bin\Debug\XMLparse.pdb
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.csprojAssemblyReference.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.Form1.resources
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.Properties.Resources.resources
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.csproj.GenerateResource.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.csproj.CoreCompileInputs.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLparse\XMLparse\obj\Debug\XMLparse.pdb

@@ -1,0 +1,7 @@
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\bin\Debug\XMLserialization.exe.config
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\bin\Debug\XMLserialization.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\bin\Debug\XMLserialization.pdb
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\obj\Debug\XMLserialization.csprojAssemblyReference.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\obj\Debug\XMLserialization.csproj.CoreCompileInputs.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\obj\Debug\XMLserialization.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\XMLserialization\XMLserialization\obj\Debug\XMLserialization.pdb
