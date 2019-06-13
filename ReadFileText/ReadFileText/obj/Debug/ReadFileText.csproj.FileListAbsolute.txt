@@ -1,0 +1,10 @@
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\bin\Debug\ReadFileText.exe.config
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\bin\Debug\ReadFileText.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\bin\Debug\ReadFileText.pdb
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.csprojAssemblyReference.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.Form1.resources
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.Properties.Resources.resources
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.csproj.GenerateResource.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.csproj.CoreCompileInputs.cache
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.exe
+C:\Users\Brendon\Documents\GitHub\MaSTeR\ReadFileText\ReadFileText\obj\Debug\ReadFileText.pdb
